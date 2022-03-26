@@ -1,0 +1,184 @@
+@import 'scss/helpers/variables';
+@import 'scss/helpers/mixins';
+
+.me-auto {
+    margin-left: auto !important;
+    margin-right: initial !important;
+}
+.history-tl-container{
+    right:0;
+    left: auto;
+}
+.wrapper-s p,.card_bottom p,.bcc p{
+    text-align:left;
+}
+.card_bottom .top-image1{
+ padding-right: 0px;
+ padding-left: 20px;
+}
+.block_tab .nav-tabs .nav-link{
+    margin-left:0px;
+    margin-right:6px;
+}
+
+
+.bcc {
+  
+    background-position: center right;
+}
+footer .copyright-footer p{
+    float: right;
+}
+footer .links li{
+    border-right: 1px solid #e6e7e9;
+    border-left: 0px !important
+}
+.footer .links li:last-child{
+    border-right:0px;
+}
+.icon-settings{
+    left:.5%
+}
+.setting{
+    left:15px;
+}
+.icon-settings img,.setting .toggle a img{
+    display: block;
+    margin:initial;
+}
+.switcher-icons{
+    left:69px;
+    right:auto
+}
+.switcher{
+    align-items: start;
+}
+.menuToggle{
+    right:0;
+    left: auto;
+    border-radius: 20px 0px 0px 20px;
+}
+.setting .btn-group li:first-child{
+   border-radius:0px;
+}
+.menu {
+    position: fixed;
+    width: 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    top: 66%;
+    left: auto;
+    right:0;
+    z-index: 99999;
+}
+.hideMenu {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    width: 44px;
+    z-index: 99999;
+    transition: all 0.3s ease;
+}
+.menuToggle_open {
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    position: fixed;
+    right: 3%;
+    left: auto;
+    z-index: 99999;
+    border-radius: 27 20px 20px 0;
+    margin-top: 7rem;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.setting .toggle:hover {
+    /* transition: all 0.5s; */
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transform: scale(1); 
+     transform: scale(1); 
+}
+.menu{
+    // right:0;
+    // left: auto; 
+}
+.switcher-icons:after {
+    content: '';
+    position: absolute;
+    right: 98.3%;
+    top: 52%;
+    left: auto;
+    margin-top: -10.5px;
+    border-right: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #d49000;
+    border-left:0px;
+}
+.switcher-icons a, .switcher-icons li{
+    border-left: 0px;
+    border-right: 1px solid #000;
+}
+.card_top .top-image1 {
+    margin-left: 130px;
+}
+
+
+.card_top p {
+    text-align: left;
+    width: 74%;
+    margin-left: 113px;
+}
+.card_top li {
+    margin-left: 156px;
+}
+.goals-card .Top_img {
+    background-position: left;
+}
+.left-card .col-lg-8{
+    border-right: 2px solid #d39e00;
+    border-left:0px !important;
+}
+
+.About_sc #pills-tabb li {
+    border-left: 0px;
+    border-right: 1px solid #004331;
+    
+}
+.About_sc #pills-tabb li:last-child{
+    border-right:0px;
+}
+.BC{
+    padding-left:14rem;
+}
+
+.contact .EM {
+    border-left: 1px solid var(--Ti3);
+    border-right:0px;
+}
+.observer_participants table th,.observer_participants table td{
+    text-align: left;
+}
+.accordion-button::after{
+    margin-left:auto;
+}
+.News .Pag{
+    margin-top: 24px;
+}
+.prev i{
+    transform: rotate(180deg);
+}
+.next i{
+    transform: rotate(-180deg);
+}
+.about_words img{
+    right:0;
+    left: 10px;
+}

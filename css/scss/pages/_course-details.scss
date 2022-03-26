@@ -1,0 +1,285 @@
+.say{
+    .history-tl-container{
+        top:0;
+    }
+    .center-block{
+        position: relative;
+    }
+}
+
+.b-cards{
+    margin-top: 3rem;
+    .card{
+        background-color: transparent;
+        border:1px solid #fff;
+        border-radius:10px;
+        
+        .title-card{
+            border-bottom: 1px solid #fff;
+            padding: 10px;
+            text-align: center;
+            color: var(--Ti);
+           
+        }
+        .card-body{
+            padding: 10px;
+            font-size: 12px;
+            height: 250px;
+            overflow: hidden;
+            p{
+                font-size: 11px;
+                line-height: 1.7;
+            }
+        }
+    }
+}
+.manager{
+    .home{
+        width: 600px;
+    margin: auto;
+    display: table;
+    }
+}
+.wrapper-s.fields{
+    padding:2rem;
+padding-top:4rem
+}
+.About_sc{
+    padding: 2rem;
+    background-color: var(--nav-bgg);
+    a{
+        margin: auto;
+        display: table;
+    }
+    .top-img{
+        background-image: url(../images/Layer421.png);
+        background-size: contain;
+        /* background-size: auto 50px; */
+        background-repeat: no-repeat;
+        background-position: center;
+        /* height: 200px; */
+        text-align: center;
+        padding-right: 20px;
+        width: 200px;
+      
+    }
+    h4{
+        color: var(--nav-textt);
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p{
+        font-size:13px;
+        color: var(--nav-textt);
+        line-height:1.8;
+        text-align: justify;
+        font-weight: bold;
+        width: 254px;
+    }
+    #pills-tabb li {
+        border-left: 1px solid #004331;
+        &:last-child{
+            border-left:0px;
+        }
+    }
+}
+
+.BC {
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/Layer374.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4 {
+        color: var(--Ti);
+        font-weight: bold;
+    }
+    .about-content {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        width: 90%;
+        padding:20px;
+     
+        i{
+            font-weight: bold;
+            color: var(--Ti);
+            font-size: 10px;
+       
+        }
+        p {
+            font-size: 13px;
+            color: #fff;
+            text-align: justify;
+          
+        }
+    }
+}
+.jumpbron{
+    h4{
+        font-weight: bold;
+        margin-bottom:10px;
+    }
+    .ti{
+        color:var( --Ti);
+        font-weight: bold;
+        font-size:13px;
+    }
+    .owl-prev,.owl-next{
+        position: absolute;
+        top: -17% !important;
+    span{
+        font-size:70px;
+        color:var(--ttext);
+    }
+
+    }
+
+    .T_list{
+         .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+            color: #faf6eb;
+            background-color: var(--po) ;
+            border-color: #dee2e6 #dee2e6 #fff;
+            border-top: 2px solid var(--Ti);
+            border-radius: 5px 5px 0px 0px;
+        }
+        .nav-link {
+            -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+            color: var(--ttext);
+            font-weight: bold;
+            font-size: 13px;
+            padding: 1rem 0.5rem;
+            background: #f7efdd;
+            margin-left: 5px;
+            border-radius: 5px 5px 0px 0px;
+            border: 1px solid #ecd093;
+            border-bottom: 0px;}
+    }
+ 
+   
+      
+    
+        .Benefits{
+            text-align: right;
+            margin:20px 0px;
+            color:var(--Ti); 
+            font-size:18px;
+            i{
+                font-size:11px; 
+            }
+           
+        }
+        .input-group{
+            height:100%;
+            text-align: right;
+            padding:14px;
+            span{
+                color:var(--Ti); 
+            }
+            p{
+                color: var(--nav-textt);
+                font-size:13px;
+                font-weight: lighter;
+                margin-top:23px;
+            }
+        }
+    }
+
+.New_box{
+    .card{
+        border:1px solid var(--Ti);
+        background-color: transparent;
+       margin-top:10px;
+       .Logo{
+        height: 88px;
+        display: flex;
+        align-items: center;
+        background: #efe5c9;
+        padding: 11px;
+        margin-top: 10px;
+        margin-right: 3px;
+        border-right: 2px solid var(--Ti);
+       }
+       img{
+        width: 72px;
+      
+        height: 47px;
+      
+    }
+        .card_head{
+           
+            padding: 10px;
+            width: 100%;
+            background-color: #efe5c9;
+            /* padding: 5px !important; */
+            margin-top: 10px;
+            height: 90px;
+            border-radius: 5px;
+            display: flex;
+            cursor: pointer;
+         
+        }
+        .card_body{
+            padding:10px;
+            p{
+                font-size:13px;
+            }
+        }
+    }
+    .cead{
+        min-height:254px !important
+    }
+}
+.new_ad{
+    background-color: var(--SD);
+    .New_box{
+    
+ 
+        .card_head{
+            span{
+               color:var(--Ti);
+               font-weight:bold 
+            }
+          
+        }
+        p{
+            font-size: 16px !important;
+            font-weight: 600;
+            line-height: 1.8;
+            color:var(--nav-textt);
+        }
+    ul li{
+        font-size: 13px;
+        margin: 10px 20px;
+        list-style: auto;
+        color:var(--nav-textt);
+    }
+    }
+}
+
+#J .owl-next{
+    left:0 !important;
+}
+.history{
+    top:26% !important
+}
+.New_box{
+    .t_item {
+        background-color: #efe5c9;
+        padding:5px !important;
+    }
+
+    .acco [aria-expanded="true"] img {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition:1s all;
+    }
+}

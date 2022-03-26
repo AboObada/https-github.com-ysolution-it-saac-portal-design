@@ -1,0 +1,317 @@
+.bug_card{
+ margin-top:0rem;
+    .input-group{
+        padding: 10px;
+        background: var(--input);
+        border: 1px solid #d49000;
+        border-radius: 10px;
+        height:100px;
+        overflow: hidden;
+        margin:10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h5{
+            color:var(--Ti);
+            font-size:14px;
+        }
+        p{
+            color:var(--nav-text);
+            font-size:13px;
+        }
+    }
+}
+.fields_details{
+    overflow: hidden;
+    .card{
+        padding:2rem 4rem;
+        h5{
+            color:var(--card-head);
+            font-size:18px;
+        }
+        width:100%;
+        border-radius:0px !important;
+     
+        .list-items{
+            li{
+                color:var(--Ti);
+                font-size:13px;
+                margin-top:10px;
+            }
+        }
+
+    }
+    .card1{
+        background: var(--input);
+    }
+    .card2{
+        background-color:var(--input2);
+    }
+}
+.Trav2{
+    background-color:#fff;
+}
+.item0{
+  li{
+    list-style: auto;
+  }
+}
+.SAC{
+    h4{
+        color:var(--Ti) !important; 
+    }
+    .input-group{
+        background-color:transparent;
+    }
+}
+.list_card{
+    li{
+        font-size:15px;
+        color:var(--list-item);
+    }
+}
+
+.coper{
+    background-color: var(--input2);
+    background-image:none;
+    p{
+        color:var(--card-head);
+        width: 80%;
+        margin: auto;
+        span{
+            color:var(--Ti);
+        }
+    }
+}
+#I{
+    p{
+        text-align: right;
+       text-align: justify;
+        margin:10px 0px ;
+      
+    }
+}
+.N_card{
+  
+    justify-content: center;
+    .row{
+        justify-content: center;
+    }
+    .card{
+        border:2px solid var(--Ti2);
+        position: relative;
+        margin:3rem 0rem;
+        background-color: transparent;
+        height:200px;
+        &::before{
+            content: "";
+    position: absolute;
+    top: -2px;
+    width: 15%;
+    border-top: 4px solid #faf6eb;
+    margin: auto;
+    display: table;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+        }
+        label {
+          z-index: 99;
+           position: relative;
+           text-align: center;
+           margin-top:-32px;
+            color: var(--Ti);
+            font-size: 2.3rem;
+            padding-right: 0.33rem;
+            padding-left: 0.33rem;
+            font-weight: bold;
+            transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+            &::before{
+                content: "";
+                position: absolute;
+                top: 29px;
+                width: 18%;
+                border-left: 3px solid #427629;
+                margin: auto;
+                display: table;
+                left: 50%;
+                -webkit-transform: translateX(-44%) translateY(-50%);
+                transform: translateX(-44%) translateY(-50%);
+                height: 16px;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                top: 29px;
+                width: 18%;
+                border-right: 3px solid #427629;
+                margin: auto;
+                display: table;
+                left: 50%;
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-56%) translateY(-50%);
+                height: 16px;
+            }
+
+        }
+      .hed_card{
+        background: #f3ebd7c4;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        font-size: 16px;
+        color:var(--sw);
+        font-weight: bold;
+      }
+      .card_body{
+          margin-top:2rem;
+          padding:0px 20px;
+          
+      }
+      p{
+          color:var(--Ti3);
+          font-size:13px;
+          text-align: justify;
+          margin:0px;
+          
+      }
+      h6{
+        color: var(--Ti);
+        font-size:14px;
+        font-weight: bold;
+      }
+    
+    }
+    h3{
+        color:var(--Ti3); 
+        font-size:13px;
+        font-weight: 900;
+      }
+     
+      .line{
+        content: "";
+        width: 18%;
+        border-right: 3px solid var(--Ti);
+        left: 50%;
+        transform: translateX(-50%) translateY(-18%);
+        height: 37px;
+      }
+      .Arow2{
+        position: absolute;
+      }
+
+}
+
+.Line {
+   img{
+    margin: auto;
+    display: table;
+   }
+   h4{
+    color:var(--Ti);
+    font-size:24px !important;
+   }
+   p{
+    color: var(--color);
+    font-weight: bold;
+   }
+}
+
+.Form_sc{
+    padding:2rem;
+    background-color: var(--nav-bgg);
+    .form-control{
+        height:50px;
+    }
+  }
+  .Form_sc h4 {
+    color: var(--nav-textt);
+    font-size: 24px;
+    font-weight: 600;
+}
+.ui-form-input {
+  padding: 21px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--nav-bg);
+  outline: 0;
+  position: relative;
+  width: 100%;
+  transition: .6s all;
+  margin-bottom: 1rem;
+  margin-top:1rem;
+}
+.form-input-label {
+position: absolute;
+top: -7px;
+right: 32px;
+color: var(--ttext);
+font-size: 0.85rem;
+font-weight: 900;
+padding-right: 0.33rem;
+padding-left: 0.33rem;
+background: var(--nav-bgg);
+transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+background-color:var(--ttext);
+}
+.custom-control-input:active ~ .custom-control-label::before{
+background-color:#fff;
+}
+.custom-control-inline{
+margin-left:0rem;
+margin:5px 0px ;
+}
+.radio_form{
+background-color: #cc94001f;
+padding: 10px;
+margin-left:2px;
+margin-right:2px;
+
+}
+.btn-primary:hover{
+background-color: #d39e00;
+  border-color: #d39e00;
+}
+.sub{
+margin-top:2.2rem !important
+}
+.MB{
+margin-bottom:10px;
+
+}
+.MB input{
+background-color: #cc94001f;
+border:0px;
+padding:22px;
+}
+.m-input input{
+background-color: #cc94001f;
+border:0px;
+
+}
+.m-inp{
+    border: 0px;
+
+    margin-bottom: 17px;
+    background-color: #cc94001f;
+
+}
+#basic-addon1{
+background: var(--nav-bg);
+color: #fff;
+}
+
+.ui-form-input label{
+font-size:15px;
+font-weight: 900;
+color:var(--black);
+margin-bottom:5px;
+}
+.btn-sub{
+background-color: var( --nav-bg);
+color:#fff;
+border:0px;
+margin: auto;
+display: table;
+}

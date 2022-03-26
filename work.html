@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> الاعتماد السعودي</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/rvfs.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main-rtl.css" rel="stylesheet">
+    <link href="css/media-rtl.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+
+</head>
+
+
+<body id="style-1" class="welcome">
+    <a class='menuToggle no-printme' href='#/'><i class="fas fa-chevron-left"></i></a>
+    <div class="menu no-printme">
+
+        <ul>
+
+            <li class=""><a href="#" class="icon-btn twitter-icon"><i class="fab fa-twitter"></i></a></li>
+            <li class=""><a href="#" class="icon-btn face-book-icon"><i class="fab fa-facebook-f"></i></a></li>
+
+            <li class=""><a href="#" class="icon-btn linkedin-icon"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class=""><a href="#" class="insta-icon"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+
+    </div>
+    <a id="toggle" class="icon-settings no-printme"><img src="images/like.png" class="img-fluid"></a>
+    <div id="contact" class="setting no-printme">
+
+        <!-- start-font-setting -->
+        <div class="switcher">
+            <div id="click-to-show" class="toggle color-toggle"><a class="nav-toggle link1"
+                    href="javascript:void(0)"><img src="images/text.png"></a></div>
+            <span class="switcher-icons btn-group link1Div ToggleFlyout">
+                <a class="zoom-out btn rvfs-reset"><img src="images/zoom-in.png" class="img-fluid" width="18px"></a>
+                <a class="zoom btn rvfs-increase"><img src="images/zoom-out.png" class="img-fluid" width="18px"> </a>
+            </span>
+        </div>
+        <!-- end-font-setting -->
+        <!-- start-color-setting -->
+        <div class="switcher">
+            <div id="click-to-showw" class="zoom-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link2"><img src="images/light.png"></a></div>
+            <span class="switcher-icons color-switcher btn-group link2Div ToggleFlyout">
+                <li data-color="dark" type="button" class="btn color">
+                    <span></span>
+                </li>
+                <li data-color="other" type="button" class="btn color1">
+                    <span></span>
+                </li>
+                <li data-color="root" type="button" class="btn color2">
+                    <span></span>
+                </li>
+            </span>
+        </div>
+        <!-- end-color-setting -->
+        <!-- start-like-setting -->
+        <div class="switcher">
+            <div id="click-to-shows" class="img-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link3"><img src="images/like.png"></a></div>
+            <span class="switcher-icons btn-group link3Div ToggleFlyout">
+
+                <span class="ag-inst_link" target="_blank">1</span>
+                <a (click)="vote('Excellent')" class="btn"><img src="images/smile-2.png" class="img-fluid"
+                        width="18px"></a>
+                <span class="ag-inst_link" target="_blank">7</span>
+                <a (click)="vote('Good')" class="btn"><img src="images/smile.png" class="img-fluid" width="18px"></a>
+                <span class="ag-inst_link" target="_blank">5</span>
+                <a (click)="vote('Bad')" class="btn"><img src="images/sad.png" class="img-fluid" width="18px"></a>
+            </span>
+        </div>
+        <!-- end-like-setting -->
+        <!-- start-print-setting -->
+        <div onclick={window.print()} class="toggle"><a href="javascript:void(0)"><img src="images/print.png"></a></div>
+        <!-- end-print-setting -->
+        <!-- start-share icons-setting -->
+
+    </div>
+
+
+    <div id="intro" class="Bar">
+        <div class="container-fluid">
+      
+            <nav class="navbar navbar-expand-lg  navbar-light ftco_navbar  ftco-navbar-light nav-inline" id="ftco-navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.svg" class="img-fluid logo1">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- end-center class-navbar-nav -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">عن
+                                المركز</a>
+                            <div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll" data-value="about" href="about.html#about"><img src="images/about1.PNG"width="30"> عن المركز</a>
+                                <a class="dropdown-item" href="about.html"><img src="images/member.png"width="27"> مجلس الإدارة</a> 
+                                <a class="dropdown-item js-scroll" href="about.html#TimeLine"  data-value="TimeLine"><img src="images/about2.PNG"width="30"> الهيكل التنظيمي</a>
+                                <a class="dropdown-item js-scroll" data-value="bcc" href="about.html#bcc"><img src="images/about3.PNG"width="30"> كلمة المدير التنفيذي</a>
+                               
+
+                                 <a class="dropdown-item js-scroll"><img src="images/notee.png"width="30"> الاعتراف الدولي</a>
+                                <!-- <a class="dropdown-item js-scroll" data-value="jum" href="about.html"><img src="images/about6.PNG"width="30"> شركاؤنا</a> -->
+                                <a class="dropdown-item js-scroll"  data-value="b-ca" href="about.html#b-ca"><img src="images/about5.PNG"width="30"> التقارير السنوية</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                عن الاعتماد</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll" data-value="wrapper-s" href="about2.html#wrapper-s"> <img src="images/عن_الاعتماد-01-removebg-preview.png"
+                                        width="30"> الاعتماد</a>
+                                <a class="dropdown-item js-scroll" data-value="About_sc" href="about2.html#About_sc"> <img
+                                        src="images/عن_الاعتماد-01h-removebg-preview.png" width="40"> دور الاعتماد</a>
+                                <a class="dropdown-item depnd js-scroll" data-value="why" href="about2.html#why"> <img src="images/_Group_.png" width="25"> لماذا
+                                    نحتاج للاعتماد</a>
+                                <a class="dropdown-item js-scroll" data-value="b-cards" href="about2.html#b-cards"> <img src="images/u-removebg-preview.png" width="40">
+                                    فوائد الاعتماد</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="fields.html"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">خدمات الاعتماد</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll" data-value="trav" href="index.html#trav"> <img src="images/serv1.PNG" width="40"> رحلة الاعتماد</a>
+                                <a class="dropdown-item js-scroll" data-value="fields" href="fields.html#fields"> <img src="images/img.png" width="40"> المختبرات</a>
+                                <a class="dropdown-item js-scroll" data-value="Travel" href="fields.html#Travel"> <img src="images/img2.png" width="45"> جهات
+                                    التفتيش</a>
+                                <a class="dropdown-item js-scroll" data-value="file-fields" href="fields.html#file-fields"> <img src="images/img3.png" width="45">جهات منح
+                                    الشهادات</a>
+                                <a class="dropdown-item js-scroll" data-value="documents" href="fields.html#documents"> <img src="images/img4.png" width="50"> جهات منح
+                                    شهادات الحلال</a>
+                                    <a class="dropdown-item js-scroll" data-value="documents" href="fields.html"> <img src="images/user.png" width="40"> المقيمون والخبراء</a>
+
+                            </div>
+                        </li>
+                         <li class="nav-item active">
+                            <a class="nav-link" href=""> التــدريب</a>
+                        </li> 
+
+                        <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="services.html"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">الخدمات
+                                الإلكترونية</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="services.html"> <img src="images/serv1.PNG" width="40">تقديم طلب
+                                    اعتماد</a>
+                                <a class="dropdown-item" href="services.html"> <img src="images/serv2.PNG" width="40"> تسجيل الخبراء
+                                    والمقيمين الفنيين</a>
+                                <a class="dropdown-item" href="services.html"> <img src="images/serv3.PNG" width="40">البرامج
+                                    التدريبية</a>
+                                    <a class="dropdown-item" href="services.html"> <img src="images/monitor.png" width="40">التدريب</a>
+
+
+                            </div>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" data-value="news" href="observer_participants.html">الجهات المعتمدة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المركز المعرفي</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المركز الإعلامي</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    <!-- end-right class-navbar-nav -->
+
+                    <ul class="navbar-nav mr-auto setting-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle gg" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">
+                                <span class="fa fa-search fa-fw"></span>
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <form action="#" method="get" class="navbar-form" style="padding: 10px;">
+                                    <fieldset class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" name="term" class="form-control"
+                                                placeholder="Search for...">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">
+                                                    <span class="fa fa-search"></span>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="Link" href="#"> <span>EN</span>العربية </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="Link" href="#"> <i class="far fa-user"></i> تسجيل الدخول</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <div class="overlay2">
+            <div class="container text-center">
+                <div class="center-block">
+                    <h4>التوظيف</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <!-- <section class="about-jtc top-background no-printme">
+        <div class="background-image">
+            <div class="overlay2">
+          <div class="container text-center">
+            <div class="center-block">
+              <h1>عن المركز</h1>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </section> -->
+
+
+    <section id="about" class="About_sc">
+        <div class="container-fluid">
+
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;"> التوظيف</h4>
+        
+            <div class="services">
+                <ul class="nav nav-pills row" id="pills-tab" role="tablist">
+                    <li class=" nav-item col-lg-6">
+                        <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                            role="tab" aria-controls="pills-profile" aria-selected="true">
+                            <div class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.4s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s; animation-name: fadeInDown;">
+                                <div class="image">
+
+
+                                    <img src="images/tab1.jpg" class="img-fluid" width="200" alt="Image">
+                                </div>
+                            </div>
+                            <h5>انضم إلينا  كمقيم</h5>
+
+                        </a>
+                    </li>
+                    <li class="nav-item col-lg-6">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">
+                            <div class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s; animation-name: fadeInDown;">
+                                <div class="image">
+                                    <img src="images/tab2.jpg" class="img-fluid" width="200" alt="Image">
+                                </div>
+                            </div>
+                            <h5>انضم كموظف</h5>
+                        </a>
+                    </li>
+                
+                
+                </ul>
+             
+            </div>
+        </div>
+
+    </section>
+
+
+  
+
+
+
+
+
+   
+
+
+
+
+
+
+    <section id="bottom-footer" class="intro2">
+        <div class="container-fluid">
+
+            <!-- footer section -->
+            <div class="footer-section">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <a class="nav-footer">
+                            <img src="images/logo.svg" class="img-fluid logo1" width="200">
+                        </a>
+                        <div class="footer-links">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                <h5>الرياض - حي الياسمين</h5>
+                                <ul class="sm-links">
+                                    <li>
+                                        <div class="mapouter">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7474672.03471518!2d40.14075525367207!3d23.82776450424526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z2YXZiNmC2Lkg2KfZhNin2LnYqtmF2KfYryDYp9mE2LPYudmI2K_Zig!5e0!3m2!1sen!2seg!4v1636468600824!5m2!1sen!2seg" width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    
+                                    
+                                  
+                                    </li>
+                                  
+                                </ul>
+                                </div>
+                             
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12 center">
+                        <h3>تابعونا علي مواقع التواصل الاجتماعي</h3>
+                        <div class="footer-links">
+                            <ul class="links LINK">
+                                <li> <a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li> <a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li> <a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li> <a href=""> <i class="fab fa-instagram"></i></a></li>
+                               
+
+
+                            </ul>
+                            <br>
+                            <div class="footer-links">
+                         
+                                <div class="login row">
+                                    <div class="col-md-12 col-sm-12 col-12">
+                                        <input type="email" placeholder="البريد الالكتروني">
+                                    </div>
+                                    <button class="btn footer-button" href="#myModal" data-toggle="modal">اشتراك</button>
+                                </div>
+                            </div>
+                            <div id="myModal" class="modal fade">
+                                <div class="modal-dialog modal-confirm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div class="icon-box">
+                                                <i class="material-icons">&#xE876;</i>
+                                            </div>				
+                                            <h4 class="modal-title w-100">Awesome!</h4>	
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                       <!-- <h3>تواصل معنا</h3>  -->
+                        
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <h3>روابط مهمة</h3>
+                        <div class="footer-links">
+                            <div class="">
+                                <ul class="sm-links">
+                                 
+                                    <li><a href="#"><i class="fas fa-caret-left"></i> اتصل بنا</a></li>
+                                    <li><a href="#"><i class="fas fa-caret-left"></i> المنصة الوطنية الموحدة</a>
+                                    </li>
+                                    <li><a href="work.html"><i class="fas fa-caret-left"></i> التوظيف</a></li>
+                                  
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sm-footer">
+            <div class="container-fluid">
+                <div class="inner-container row">
+                 
+                 
+                        <div class="col-lg-12">
+                            <p class="last-paragragh">جميع الحقوق محفوظة للمركز السعودي للاعتماد &copy;  <script>document.write(new Date().getFullYear())</script></p>
+                        </div>
+             
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/store.min.js"></script>
+    <script src="js/rv-fontsize.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

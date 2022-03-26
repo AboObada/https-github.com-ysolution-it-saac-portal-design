@@ -1,0 +1,494 @@
+@media (max-width:1024px) {
+    .Bar .Navs {
+        height: 100%;
+    }
+    .Menu4 .dropdown-item {
+        display: block !important;
+    }
+    .Menu4{
+        height:auto !important
+    }
+    .navbar-collapse{
+        background-color:var(--body-bg);
+    }
+    .count .d-flex{
+        
+        display: block !important;
+        }
+      
+        .number-site .d-flex{
+            display: block !important;
+          }
+    .card_bottom p{
+        width:100%;
+    }
+    .Bar .nav-inline .navbar-nav .nav-item .nav-link{
+        border-left:0px;
+    }
+    .card_top .img-top{
+        display: none;
+    }
+    .card_top p{
+        margin-top:50px;
+        width:100%;
+    }
+    .service .course-item-wrapper{
+        width:100%;
+    }
+    .say .left-card{
+        height:100%;
+    }
+    .say .card-right{
+        height:100%;
+        margin-top:10px;
+    }
+    .b-cards .card{
+        margin-bottom:10px;
+    }
+    .card_top ul{
+        margin-top:30px;
+    }
+    .card_top .top-image1{
+        top:inherit
+    }
+    .wrapper-s2 p{
+        font-size:11px !important;
+    }
+    .fields .box-travel{
+        padding:0px 10px;
+    }
+    .fields .box-travel h5{
+        font-size:15px;
+    }
+    .trav .input-group{
+        margin:10px 0px;
+    }
+    #Fileds .wrapper-s2{
+        height:550px
+    }
+    .New_box{
+        margin:10px 0px;
+    }
+    .Line h4{
+        font-size:17px !important;
+    }
+    .wrapper_traning{
+       height: 27vh
+
+    }
+    .contact .contact_item img {
+        width: 100%;
+    }
+    .contact .Left_content{
+        height:100%;
+        padding:0px;
+        margin:10px 0px;
+    }
+    .contact .contact_item p{
+        font-size:10px;
+    }
+    .contact{
+        padding-top: 17px;
+    height: 100%;
+    }
+    .observer_participants{
+        background-size: contain;
+    }
+    .About_sc p,
+    .card_bottom p
+    .service-overlay p
+    {
+        width:100% !important;
+    }
+    .card_bottom{
+        padding:0rem 1rem;
+    }
+    .service .course-title,.service .course-author span{
+        font-size:10px !important;
+    }
+    .wrapper-s p{
+        font-size:11px !important;
+    }
+    .container-fluid{
+        margin-right:0px;
+    }
+    .number-site .no{
+        margin:10px 0px
+    }
+    .ground {
+        height: 133px;
+    }
+    .ground .owl-nav button, .bvr .owl-nav button {
+       
+        top: 16% !important;
+       
+    }
+    .owl-nav .owl-next, .owll .owl-nav .owl-next {
+        position: absolute;
+        right: -20px;
+    }   
+    .owl-nav .owl-next, .owll .owl-nav .owl-next ,.owl-nav .owl-prev, .owll .owl-nav .owl-prev{
+
+        width: 34px;
+      
+        height: 34px;
+    } 
+    .card_block .d-flex{
+        display:  block !important;
+    }
+    .bcc p{
+        font-size:11px;
+    }
+    .bcc{
+        padding: 2rem;
+    position: relative;
+    z-index: 1;
+    background: var(--card);
+    background-image: url(../images/d.png);
+    background-size: cover;
+    background-size: auto 202px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-top: 1px solid var(--Ti);
+    color: #fff;
+    height: 350px;
+    }
+    .bcc .col-lg-7{
+        padding-bottom:11rem;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        display: none;
+    }
+    .Block {
+        height: 635px !important;
+    }
+ 
+    .card-travel h4{
+        font-size:15px !important;
+    }
+    .wrapper-s .center-block{
+        padding:0px;
+    }
+    .wrapper-s{
+        padding:1rem;
+    }
+    .fields_details .d-flex{
+        display: block !important;
+    }
+    .container-fluid {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .item .cover .header-content{
+        padding:30px;
+    }
+    .item .cover .header-content h2,
+    .item .cover .header-content p,
+    .rvfs-4 .item .cover .header-content h2, .rvfs-4 .About_sc h4,
+    .overlay22 .content p, .overlay .content p,
+    .About_sc h4,
+    .rvfs-4 .header-content p,.T_card table,.News_details h5, .rvfs-4 .services .nav-item h5, .rvfs-4 .card2, .rvfs-4 .overlay2 .content p, .rvfs-4 .overlay .content p, .rvfs-4 .service-overlay p
+    {
+        font-size:12px;
+    }.item .cover .header-content{
+      
+        text-align: center;
+        float: none;
+    }
+    .history-tl-container{
+        display:none;
+    }
+    .conv .box1 .card_img{
+        margin:15px 0px;
+    }
+    .Box_book p{
+        width:65%;
+    }
+    .Book_img {
+        width: 114px;
+        position: absolute;
+        left: -1%;
+        top: -156px;
+    }
+    .bvr .item {
+        height: 227px;
+        margin-top: 10px;
+    }
+    .Book_img {
+        width: 106px !important;
+        position: absolute;
+    }
+    .observer_participants{
+padding:1rem;
+    }
+    .b-ca .card{
+        height: auto;
+    }
+    .t_tabs .d-flex {
+        display:  block !important;
+    }
+    .News_details .content {
+        height: auto;
+    }
+    .conv .d-flex{
+        display:  block !important;
+    }
+    .services .nav-item,.navbar-nav .nav-item{
+        border-left:0px;
+    }
+    .new-card,.setting-menu li{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .icon-settings img{
+        width:35px;
+    }
+    .ti-bottom .right-side{
+        width:100% !important
+    }
+    .setting{
+        top:72% !important
+    }
+    .menuToggle_open{
+        left:11%;
+    }
+    .first-line{
+        right:0px;
+    }
+    .support img{
+        min-height:340px;
+    }
+    .wrapper-s p{
+        width:100%;
+        font-size: 11px;
+    }
+    .overlay22 .content, .overlay .content{
+        padding: 1rem;
+    }
+    .overlay22 .content h4, .overlay .content h4{
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+    .overlay22 .content h4::before, .overlay .content h4::before{
+        right:34px
+    }
+    .navbar-light .navbar-toggler{
+        color:var(--icon-s);
+    }
+    .Menu4 .dropdown-item {
+        display: block !important;
+    }
+    .nav-inline .navbar-nav .dropdown-menu{
+    left: 0 !important;
+    right: 0 !important;
+    box-shadow: none;
+    border: none;
+    margin: 0 auto;
+    max-width: 1140px;
+    background: var(--bar-nav);
+    color:#fff;
+    padding: 0;
+     height: 100%;
+    }
+    .SMMM::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 80px;
+        background-color: #fff;
+        /* border-radius: 50%; */
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+        top: -81px;
+        transition: .5s;
+        z-index: 0;
+        left: 50%;
+        z-index: 0;
+    }
+    .nav-inline .navbar-nav .dropdown-menu.show{
+        display: block;
+    }
+    div.timeline-medical-history ul{
+        display: block;
+    }
+    .timeline ul li:nth-child(odd) {
+        float: revert;
+        text-align: left;
+    }
+    .SMM::before,.he::after,.timeline .HD:before,.SM::before,.timeline .HD2:before,.SM::after,div.timeline-medical-history::before,.inner::before,.event3:after{
+        width:0%
+    }
+    .timeline .HD2:before{
+        height:0px !important;
+    }
+    .timeline .HD2:before{
+        content: '';
+    position: absolute;
+    width: 2px;
+    height: 42px;
+    background-color: #fff;
+    /* border-radius: 50%; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    top: 137px;
+    transition: .5s;
+    z-index: 0;
+    left: 48%;
+    z-index: 0;
+    overflow: hidden;
+    }
+    div.timeline-medical-history ul li::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 39px;
+        background-color: #fff;
+        /* border-radius: 50%; */
+        left: 47%;
+        transform: translateX(-68%);
+        top: -40px;
+        transition: .5s;
+    }
+    .border02,.border02{
+        height:0px;
+        background-image:none
+    }
+    .timeline ul .head {
+        width: 100%;
+    }
+    .bcc{
+        height:100%
+    }
+    .OWL .item,.sliders {
+        height: 400px !important;
+      
+    }
+    .OWL .owl-dots{
+        left:-28%
+    }
+    .services {
+        margin: auto;
+        display: block;
+    }
+    .Items_cards {
+    height: 100% !important;
+}
+    .item .card .title{
+        width:65%;
+        font-size:11px;
+    }
+    .slides .owl-nav .owl-next{
+        top:8% !important
+    }
+    .slides .owl-nav .owl-prev{
+        top:12% !important
+    }
+    .signup-step-container{
+        padding:0px;
+    }
+    .wizard .tab-pane{
+        padding-top:0px;
+    }
+    .fs-title{
+        font-size:14px;
+    }
+    .service-tecnology{
+        height:800px;
+    }
+    .box-travel,.about-content{
+        width:100%;
+    }
+    .box-travel .input-group-text, .New_tab .input-group-text{
+        border-left:0px;
+    }
+    .titles{
+        margin:0rem;
+    }
+    .link_travel{
+        margin-top: -2px;
+        left: 4%;
+    }
+    .bc p{
+        margin-top:0rem;
+        font-size:11px;
+    }
+    .about-content span{
+        line-height: 1;
+    }
+    .b-img{
+        width: 159px !important;
+    }
+    .List2 li {
+        border-bottom: 2px solid #d49000;
+        width: 2px;
+        padding: 15px;
+        margin-bottom: 2rem;
+        margin-top: 1.6rem;
+    }
+    .List2 li:first-child span {
+        top: 9.5%;
+    }
+    .List3 li span,.List22 li span,.List2 li span{
+        display: none;
+    }
+    .List2 li span {
+        width: 10px;
+        height: 10px;
+        background: #d49000;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 99;
+        position: absolute;
+        margin-right: 0rem;
+    }
+    .List-c li {
+        margin-top: 10px;
+        text-align: right;
+         margin-right: 0px; 
+        font-size: 6px;
+    }
+    .bc h4 {
+        color: #fff;
+        font-size: 12px;
+         margin-top: 0rem;
+    }
+    .BC {
+   
+       
+        background-size: cover;
+        background-size: initial;
+     
+        height: 193px;
+    }
+    #I{
+        height:100%;
+    }
+    .jumpbron{
+        padding:30px 10px;
+    }
+    .owl-nav .owl-prev, .owll .owl-nav .owl-prev{
+        left:-20px !important;
+    }
+    .owl-carousel .owl-item img{
+        margin: auto;
+    }
+    footer .links{
+        text-align: center;
+    }
+    .Block .card_block, .card_top p, footer .links li{
+        padding:2px;
+    }
+    .Items_cards,.ti-bottom {
+        height: 100% !important;
+    }
+    footer .copyright-footer p {
+
+        text-align: center;
+        float: none;
+        margin: auto;
+        display: table;
+    }
+    footer .links li{
+        font-size:11px;
+    }
+}

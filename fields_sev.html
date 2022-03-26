@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> الاعتماد السعودي</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/rvfs.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main-rtl.css" rel="stylesheet">
+    <link href="css/media-rtl.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+
+</head>
+
+<body id="style-1" class="welcome">
+    <a class='menuToggle no-printme' href='#/'><i class="fas fa-chevron-left"></i></a>
+    <div class="menu no-printme">
+
+        <ul>
+
+            <li class=""><a href="#" class="icon-btn twitter-icon"><i class="fab fa-twitter"></i></a></li>
+            <li class=""><a href="#" class="icon-btn face-book-icon"><i class="fab fa-facebook-f"></i></a></li>
+
+            <li class=""><a href="#" class="icon-btn linkedin-icon"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class=""><a href="#" class="insta-icon"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+
+    </div>
+    <a id="toggle" class="icon-settings no-printme"><img src="images/like.png" class="img-fluid"></a>
+    <div id="contact" class="setting no-printme">
+
+        <!-- start-font-setting -->
+        <div class="switcher">
+            <div id="click-to-show" class="toggle color-toggle"><a class="nav-toggle link1"
+                    href="javascript:void(0)"><img src="images/text.png"></a></div>
+            <span class="switcher-icons btn-group link1Div ToggleFlyout">
+                <a class="zoom-out btn rvfs-reset"><img src="images/zoom-in.png" class="img-fluid" width="18px"></a>
+                <a class="zoom btn rvfs-increase"><img src="images/zoom-out.png" class="img-fluid" width="18px"> </a>
+            </span>
+        </div>
+        <!-- end-font-setting -->
+        <!-- start-color-setting -->
+        <div class="switcher">
+            <div id="click-to-showw" class="zoom-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link2"><img src="images/light.png"></a></div>
+            <span class="switcher-icons color-switcher btn-group link2Div ToggleFlyout">
+                <li data-color="dark" type="button" class="btn color">
+                    <span></span>
+                </li>
+                <li data-color="other" type="button" class="btn color1">
+                    <span></span>
+                </li>
+                <li data-color="root" type="button" class="btn color2">
+                    <span></span>
+                </li>
+            </span>
+        </div>
+        <!-- end-color-setting -->
+        <!-- start-like-setting -->
+        <div class="switcher">
+            <div id="click-to-shows" class="img-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link3"><img src="images/like.png"></a></div>
+            <span class="switcher-icons btn-group link3Div ToggleFlyout">
+
+                <span class="ag-inst_link" target="_blank">1</span>
+                <a (click)="vote('Excellent')" class="btn"><img src="images/smile-2.png" class="img-fluid"
+                        width="18px"></a>
+                <span class="ag-inst_link" target="_blank">7</span>
+                <a (click)="vote('Good')" class="btn"><img src="images/smile.png" class="img-fluid" width="18px"></a>
+                <span class="ag-inst_link" target="_blank">5</span>
+                <a (click)="vote('Bad')" class="btn"><img src="images/sad.png" class="img-fluid" width="18px"></a>
+            </span>
+        </div>
+        <!-- end-like-setting -->
+        <!-- start-print-setting -->
+        <div onclick={window.print()} class="toggle"><a href="javascript:void(0)"><img src="images/print.png"></a></div>
+        <!-- end-print-setting -->
+        <!-- start-share icons-setting -->
+
+    </div>
+
+
+    <div id="intro" class="Bar">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light  ftco_navbar  ftco-navbar-light nav-inline"
+                id="ftco-navbar">
+                <a class="navbar-brand dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/logo.png" class="img-fluid logo1">
+                </a>
+
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item js-scroll" data-value="wrapper-s" href="index.html?sec=wrapper-s"><img
+                            src="images/about1.PNG" width="30">
+                        عن المركز</a>
+                    <a class="dropdown-item js-scroll" data-value="Fileds" href="index.html?sec=Fileds"><img
+                            src="images/about2.PNG" width="27">
+                        خدمات
+                        الاعتماد</a>
+                    <a class="dropdown-item js-scroll" data-value="bb" href="index.html?sec=bb"><img
+                            src="images/pepole.png" width="30"> تسجيل
+                        المقيمين والخبراء</a>
+
+                    <a class="dropdown-item js-scroll" data-value="trip" href="index.html?sec=trip"><img
+                            src="images/travel.png" width="30"> رحلة
+                        العميل</a>
+                    <!-- <a class="dropdown-item js-scroll" data-value="jum" href="about.html"><img src="images/about6.PNG"width="30"> شركاؤنا</a> -->
+                    <a class="dropdown-item js-scroll" data-value="gi" href="index.html?sec=gi"><img
+                            src="images/depend.png" width="30"> الجهات
+                        المعتمدة حديثا</a>
+                    <a class="dropdown-item js-scroll" data-value="jump" href="index.html?sec=jump"><img
+                            src="images/partner.png" width="30">
+                        شركاؤنا</a>
+                    <a class="dropdown-item js-scroll" data-value="newss" href="index.html?sec=newss"><img
+                            src="images/news.png" width="30">
+                        الأخبار</a>
+                    <a class="dropdown-item js-scroll" data-value="no" href="index.html?sec=no"><img
+                            src="images/number.png" width="30"> المركز في أرقام</a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- end-center class-navbar-nav -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 Navs">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">عن
+                                المركز</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                <a class="dropdown-item js-scroll" data-value="a" href="about.html?sec=a"><img
+                                        src="images/about1.PNG" width="30"> عن
+                                    المركز</a>
+                                <a class="dropdown-item" href="about.html?sec=c"><img src="images/member.png"
+                                        width="27"> مجلس
+                                    الإدارة</a>
+                                <a class="dropdown-item js-scroll" href="about.html?sec=d" data-value="TimeLine"><img
+                                        src="images/about2.PNG" width="30"> الهيكل التنظيمي</a>
+                                <a class="dropdown-item js-scroll" data-value="" href="about.html?sec=E"><img
+                                        src="images/about3.PNG" width="30"> كلمة المدير التنفيذي</a>
+
+
+                                <a class="dropdown-item js-scroll" href="about.html?sec=f"><img src="images/notee.png"
+                                        width="30"> الاعتراف
+                                    الدولي</a>
+                                <!-- <a class="dropdown-item js-scroll" data-value="jum" href="about.html"><img src="images/about6.PNG"width="30"> شركاؤنا</a> -->
+                                <a class="dropdown-item js-scroll" data-value="b-ca" href="about.html?sec=g"><img
+                                        src="images/about5.PNG" width="30"> التقارير السنوية</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                عن الاعتماد</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll" data-value="gg" href="fields.html?sec=gg">
+                                    <img src="images/عن_الاعتماد-01-removebg-preview.png" width="30">البنية التحتية
+                                    للجودة</a>
+                                <a class="dropdown-item js-scroll" data-value="H" href="fields.html?sec=H">
+                                    <img src="images/عن_الاعتماد-01h-removebg-preview.png" width="40">تعريف الاعتماد</a>
+
+                                <a class="dropdown-item depnd js-scroll" data-value="I" href="fields.html?sec=I"> <img
+                                        src="images/_Group_.png" width="25">أهمية الاعتماد</a>
+
+                                <a class="dropdown-item js-scroll" data-value="J" href="fields.html?sec=J"> <img
+                                        src="images/u-removebg-preview.png" width="40">فوائد الاعتماد</a>
+                                <a class="dropdown-item js-scroll" data-value="kf" href="fields.html?=sec=kf"> <img
+                                        src="images/u-removebg-preview.png" width="40">المنظمات والهيئات الدولية</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">خدمات الاعتماد</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item scrollTo" data-value="trav" href="#go"> <img
+                                        src="images/serv1.PNG" width="40"> رحلة الاعتماد</a>
+                                <a class="dropdown-item scrollTo" data-value="fields" href="#wrapper-s2"> <img
+                                        src="images/img.png" width="40"> المختبرات</a>
+                                <a class="dropdown-item scrollTo" data-value="Travel" href="#Lay44"> <img
+                                        src="images/img2.png" width="45"> جهات
+                                    التفتيش</a>
+                                <a class="dropdown-item scrollTo" data-value="file-fields"
+                                    href="fields_sev.html?sec=cert"> <img src="images/img3.png" width="45">جهات منح
+                                    الشهادات</a>
+                                <a class="dropdown-item scrollTo" data-value="documents" href="#yellow">
+                                    <img src="images/img4.png" width="50"> جهات منح
+                                    شهادات الحلال</a>
+                                <a class="dropdown-item scrollTo" data-value="documents" href="#gualy"> <img
+                                        src="images/user.png" width="40"> المقيمون والخبراء</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="traning.html"> التــدريب</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" data-value="news" href="observer_participants.html">الجهات
+                                المعتمدة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المركز المعرفي</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المركز الإعلامي</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mn" href="#">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    <!-- end-right class-navbar-nav -->
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 setting-menu">
+                        <li class="nav-item Link">
+                            <a class="nav-link" href="#"> تسجيل الدخول</a>
+                        </li>
+                        <li class="dropdown Search_icon">
+                            <a href="#" class="dropdown-toggle gg" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">
+                                بحـث
+                                <span class="fa fa-search fa-fw"></span>
+
+                            </a>
+                            <ul class=" dropdown-menu" style="margin-left: 0%;">
+                                <form action="#" method="get" class="navbar-form" style="padding: 10px;">
+                                    <fieldset class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" name="term" class="form-control"
+                                                placeholder="Search for...">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">
+
+                                                    <span class="fa fa-search"></span>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mn" href="#"> EN</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <!-- first section -->
+    <section class="top-background" id="go">
+        <div class="service say">
+            <div class="container">
+                <div class="center-block">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;"> رحلة
+                                الاعتماد
+                            </h4>
+                            <p>من خلال هذه الرحلة ستتعرف على الإجراءات والمتطلبات والوثائق
+                                اللازمة للحصول على مختلف أنواع الاعتمادات والخدمات ذات
+                                العلاقة والمقدمة من المركز.</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="history-tl-container">
+                                <ul class="tl">
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#go" class="scrollTo" data-value="go">
+                                            <div class="item-detail">رحلة الاعتماد</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#wrapper-s2" class="scrollTo" data-value="wrapper-s2">
+                                            <div class="item-detail">اعتماد جهات المختبرات</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#Lay44" class="scrollTo" data-value="Lay44">
+
+                                            <div class="item-detail">اعتماد جهات التفتيش</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#cert" class="scrollTo" data-value="trav77">
+
+                                            <div class="item-detail">اعتماد جهات منح الشهادات</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                                        <a href="#yellow" class="scrollTo" data-value="cert">
+                                            <div class="item-detail">جهات منح شهادات الحلال</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                                        <a href="#gualy" class="scrollTo" data-value="gualy">
+                                            <div class="item-detail">المقيّمين والخبراء</div>
+                                        </a>
+                                    </li>
+
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="b-cards bug_card col-lg-9">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-4">
+                                    <div class="input-group">
+
+                                        <div class="title">
+                                            <h5>1-التقديم</h5>
+                                            <p>قديم طلب االاعتماد من قبل جهة تقويم
+                                                المطابقة عبر الموقع الإلكتروني.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="input-group">
+
+                                        <div class="title">
+                                            <h5>2-التحقق من الطلب</h5>
+                                            <p>يقوم المركز بالتحقق من طلب واكتمال
+                                                المتطلبات.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="input-group">
+
+                                        <div class="title">
+                                            <h5>3-الدراسة المكتبية</h5>
+                                            <p>يقوم الاعتماد السعودي بدراسة وتقييم
+                                                وثائق الجهة.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="input-group">
+
+                                        <div class="title">
+                                            <h5>4-الزيارة الميدانية</h5>
+                                            <p>يقوم الاعتماد بزيارة المقر للتحقق من
+                                                كفاءة الجهة.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="input-group">
+
+                                        <div class="title">
+                                            <h5>5-اتخاذ القرار</h5>
+                                            <p>بعد التأكد من استيفاء المتطلبات وكفاءة جهة تقويم المطابقة يتم اتخاذ قرار
+                                                منح الاعتماد لها.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fields" id="wrapper-s2">
+        <div class="wrapper-s2">
+            <div class="overlay">
+                <div class="">
+                    <div class="center-block">
+
+                        <div class="container">
+
+                            <div class="box-travel">
+                                <div class="input-group row">
+                                    <div class="col-lg-12">
+                                        <h5>اعتماد المختبرات</h5>
+                                        <p>هو التحقق من الكفاءة الفنية للمختبر لأداء أنواع محددة من اختبارات الفحص
+                                            والقياس والمعايرة في مجال محدد
+                                            مثل مختبرات فحص المنتجات الكهربائية والكيميائية والبترولية والتشييد والبناء،
+                                            ومختبرات القياس والمعايرة،
+                                            ISO/IEC وغيرها من المجالات. ويقوم المركز باعتماد المختبرات بجميع مجالاتها
+                                            طبقا للمواصفة القياسية الدولية
+                                            17025 (المتطلبات العامة لكفاءة مختبرات الفحص والمعايرة)، وكذلك اعتماد
+                                            المختبرات الطبية طبقا للمواصفة
+                                            متطلبات اعتماد المختبرات الطبية) مما يمنح عملاء هذه المختبرات الثقة في جودة
+                                            ) ISO القياسية الدولية 15189
+                                            خدماتها التي تقوم بتقديمها.</p>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fields_details">
+        <div class="d-flex justify-content-between">
+            <div class="card card1">
+                <div class="container">
+                    <h5>ويتم خلال عملية الاعتماد التحقق من:</h5>
+                    <ul class="list-items">
+                        <li>• كفاءة الكوادر الفنية والإدارية.</li>
+                        <li>• توفر وملاءمة التجهيزات والمعدات المستخدمة بالمختبر</li>
+                        <li>• توفر إجراءات كافية لضبط الجودة وضمان الجودة.</li>
+                        <li>• وجود ممارسات ملائمة في أخذ العينة.</li>
+                        <li>• توفر إجراءات موثقة لعمل الاختبارات.</li>
+                        <li>• توفر بيئة اختبار مناسبة.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="card card2">
+                <div class="container">
+                    <h5>الجهات المعنية بالخدمة:</h5>
+                    <ul class="list-items">
+                        <li>• جميع مختبرات الفحص والمعايرة القائمة بذاتها.</li>
+                        <li>• المختبرات داخل المصانع وشركات الأغذية وشركات النفط</li>
+                        <li>•المختبرات الخاصة والحكومية والمعنية بتنفيذ الاختبارات.</li>
+                        <li>• المختبرات المهتمة بالحصول على اعتماد وتوثيق لنتائج الاختبار والمعايرة
+                            الصادرة منها.</li>
+                        <li>•المختبرات الطبية القائمة بذاتها.</li>
+                        <li>• المختبرات الطبية داخل المنشآت الطبية الخاصة والحكومية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fields" id="Lay44">
+        <div class="wrapper-s2">
+            <div class="overlay Lay">
+                <div class="">
+                    <div class="center-block">
+                        <div class="container">
+                            <div class="box-travel">
+                                <div class="input-group row">
+                                    <div class="col-lg-12">
+                                        <h5>جهات التفتيش</h5>
+                                        <p>هو التحقق من الكفاءة الفنية لجهات التفتيش لأداء أنواع محددة من خدمات التفتيش
+                                            المختلفة مثل التفتيش
+                                            على المصاعد والسلالم والتفتيش على مدن الملاهي وغيرها من خدمات التفتيش التي
+                                            تقدمها هذه الجهات.
+                                            المتطلبات العامة )ISO/IEC ويقوم المركز باعتماد جهات التفتيش طبقا للمواصفة
+                                            القياسية الدولية 17020
+                                            لاعتماد جهات التفتيش) مما يمنح عملاء جهات التفتيش الثقة في جودة خدماتها التي
+                                            تقوم بتقديمها.</p>
+                                        <!-- <a href="services.html" class="field_more">اقرأ المزيد</a> -->
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="travel trav BNC">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">ويتم خلال عملية
+                الاعتماد التحقق من:</h4>
+
+            <div class="New_tab">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>كفاءة الكوادر الفنية والإدارية.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>توفر وملاءمة التجهيزات والمعدات
+                                    المستخدمة في جهات التفتيش</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>توفر إجراءات كافية لضبط الجودة
+                                    وضمان الجودة.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>وجود ممارسات ملائمة أثناء
+                                    عمليات التفتيش.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>توفر إجراءات موثقة لطرق التفتيش.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>توفر البيئة المناسبة للقيام
+                                    بعمليات التفتيش.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="travel trav Trav2 by" id="trav2">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">
+                الجهات المعنية بالخدمة:</h4>
+
+            <div class="New_tab">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>الجهات التي تقوم بأعمال التفتيش</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>هيئات التفتيش الخاصة أو الحكومية.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+
+                            <div class="title">
+
+                                <p>منشآت العمليات الميدانية عن بعد
+                                    وعمليات التفتيش المؤقتة.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="fields" id="cert">
+        <div class="wrapper-s2">
+            <div class="overlay">
+                <div class="">
+                    <div class="center-block">
+
+                        <div class="container">
+
+                            <div class="box-travel">
+                                <div class="input-group row">
+                                    <div class="col-lg-12">
+                                        <h5>اعتماد جهات منح الشهادات</h5>
+                                        <p>هو التحقق من الكفاءة الفنية للجهات المانحة للشهادات في مجالات متنوعة مثل نظم
+                                            الإدارة وشهادات المنتجات
+                                            والخدمات والعمليات مما يمنح عملاء هذه الجهات الثقة في جودة خدماتها التي تقوم
+                                            بتقديمها. ويقوم المركز باعتماد
+                                            هذه الجهات من خلال المواصفة الخاصة بكل مجال مثل: منح الشهادات لنظم إدارة
+                                            الجودة طبقاً المواصفة الدولية
+                                            1:2015- (متطلبات اعتماد جهات منح الشهادات لنظم ادارة الجودة)، ومنح شهادات
+                                            المنتجات ISO/IEC 17021
+                                            متطلبات اعتماد الجهات المانحة لشهادات للمنتجات ) ISO/IEC والخدمات والعمليات
+                                            طبقا للمواصفة الدولية 17065
+                                            متطلبات ) ISO/IEC والعمليات والخدمات)، وكذلك منح شهادات الكفاءة للأفراد طبقا
+                                            للمواصفة الدولية 17024
+                                            اعتماد جهات منح الشهادات للأفراد).</p>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fields_details">
+        <div class="d-flex justify-content-between">
+            <div class="card card1">
+                <div class="container">
+                    <h5>ويتم خلال عملية الاعتماد التحقق من:</h5>
+                    <ul class="list-items">
+                        <li>• كفاءة الكوادر الفنية والإدارية..</li>
+                        <li>• توفر ملاءمة التجهيزات والمعدات المستخدمة في جهات المنح.</li>
+                        <li>• توفر إجراءات كافية لضبط الجودة وضمان الجودة.</li>
+                        <li>• وجود ممارسات ملائمة أثناء عمليات المنح.</li>
+                        <li>• توفر إجراءات موثقة لطرق المنح.</li>
+                        <li>• توفر البيئة المناسبة للقيام بعمليات المنح.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="card card2">
+                <div class="container">
+                    <h5>يتم اعتماد جهات منح الشهادات لنظم إدارة الجودة
+                        1:2015- في ISO/IEC طبقاً المواصفة الدولية 17021
+                        كل من المجالات التالية:</h5>
+                    <ul class="list-items item0">
+                        <li> نظم إدارة الجودة 9001 ISO</li>
+                        <li> نظم إدارة البيئية 14001 ISO</li>
+                        <li> نظم إدارة سلامة الغذاء 22000 ISO</li>
+                        <li> نظم إدارة أمن المعلومات 27001 ISO/IEC</li>
+                        <li> نظم إدارة الجودة للأجهزة الطبية 13485 ISO </li>
+                        <li> نظم إدارة الطاقة 50001 ISO</li>
+                        <li> نظم إدارة الصحة والسلامة المهنية 45001 ISO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="card card-travel SAC">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">الجهات المعنية بالخدمة
+            </h4>
+            <div class="row">
+                <div class="b-cards bug_card col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="input-group">
+
+                                <div class="title">
+
+                                    <p>الجهات التي تقوم بمنح الشهادات
+                                        لإدارة نظم الجودة في القطاع
+                                        الحكومي أو الخاص</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="input-group">
+
+                                <div class="title">
+
+                                    <p>الجهات التي تقوم بمنح الشهادات
+                                        للمنتجات والعمليات والخدمات في
+                                        القطاع الحكومي او الخاص.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="input-group">
+
+                                <div class="title">
+
+                                    <p>الجهات التي تقوم بمنح الشهادات
+                                        للأفراد في القطاع الحكومي او الخاص.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="fields" id="yellow">
+        <div class="wrapper-s2">
+            <div class="overlay Lay">
+                <div class="">
+                    <div class="center-block">
+                        <div class="container">
+                            <div class="box-travel">
+                                <div class="input-group row">
+                                    <div class="col-lg-12">
+                                        <h5>جهات منح شهادات الحلال</h5>
+                                        <p>هو التحقق من الكفاءة الفنية لجهات التفتيش لأداء أنواع محددة من خدمات التفتيش
+                                            المختلفة مثل التفتيش
+                                            على المصاعد والسلالم والتفتيش على مدن الملاهي وغيرها من خدمات التفتيش التي
+                                            تقدمها هذه الجهات.
+                                            المتطلبات العامة )ISO/IEC ويقوم المركز باعتماد جهات التفتيش طبقا للمواصفة
+                                            القياسية الدولية 17020
+                                            لاعتماد جهات التفتيش) مما يمنح عملاء جهات التفتيش الثقة في جودة خدماتها التي
+                                            تقوم بتقديمها.</p>
+                                        <!-- <a href="services.html" class="field_more">اقرأ المزيد</a> -->
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="card card-travel trav goals">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <h4 class="wow fadeInDown" data-wow-duration="2s"
+                        style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">ويتم خلال عملية
+                        الاعتماد التحقق من:</h4>
+                    <div class="row">
+                        <ul class="list_card col-lg-6">
+                            <li>• كفاءة الكوادر الفنية والإدارية والشرعية.</li>
+                            <li>• ملاءمة التجهيزات والمعدات المستخدمة في جهات المنح</li>
+                            <li>• توفر إجراءات موثقة لعمل الاختبارات.</li>
+                        </ul>
+                        <ul class="list_card col-lg-6">
+                            <li>• توفر وملاءمة التجهيزات والمعدات المستخدمة بالمختبر.</li>
+                            <li>• وجود ممارسات ملائمة في أخذ العينة.</li>
+                            <li>• توفر بيئة اختبار مناسبة.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h4>الجهات المعنية بالخدمة</h4>
+                    <div class="input-group">
+
+                        <div class="title">
+
+                            <p>الجهات التي تقوم بمنح الشهادات
+                                للحلال في القطاع الحكومي والخاص</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="fields" id="gualy">
+        <div class="wrapper-s2">
+            <div class="overlay">
+                <div class="">
+                    <div class="center-block">
+
+                        <div class="container">
+
+                            <div class="box-travel">
+                                <div class="input-group row">
+                                    <div class="col-lg-12">
+                                        <h5>المقيّمين والخبراء</h5>
+                                        <p>يتمتع مقيمو المركز السعودي للاعتماد بمستوى عالٍ من الخبرة الفنية والمعرفية في
+                                            مجالات الاعتماد المختلفة.
+                                            وتخضع عملية ترشيح وتأهيل المقيمين والخبراء (المتعاونين) لمجموعة من المراحل
+                                            للتأكد من كفاءتهم الفنية لتقييم
+                                            جهات تقويم المطابقة مثل المختبرات وجهات التفتيش وجهات منح الشهادات.
+                                            ويتيح المركز للمقيمين المتعاونين المشاركة في اللجان الفنية في المركز،
+                                            والترشيح للمشاركات الإقليمية والدولية،
+                                            والالتحاق بالدورات التدريبية ذات الصلة بالاعتماد، وإتاحة الفرصة لتبادل
+                                            التجارب مع مقيّمي المركز الآخرين.</p>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bc BC coper" id="I">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+
+                    <h4 class="wow fadeInDown" data-wow-duration="2s"
+                        style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">فرص التعاون
+
+                    </h4>
+                    <p>هناك عدة مجالات يمكنك من خلالها العمل كمقيّم أو خبير متعاون مع المركز السعودي للاعتماد:</p>
+                    <div class="about-content">
+                        <ul class="list-items row">
+                            <div class="col-lg-4">
+                                <p> <span>بصفتك رئيس فريق,</span> تركز بشكل
+                                    أساس على إدارة فريق التقييم وكذلك
+                                    تقييم المتطلبات الإدارية لجهة تقويم
+                                    المطابقة (التقييم الإداري).</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p>،<span>بصفتك مقيِّمًا فنياً</span> يختص عملك
+                                    بتقييم الجوانب الفنية لجة تقويم
+                                    المطابقة (التقييم الفني).</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p><span>بصفتك خبيراً فنياً</span> ، تقديم معرفة
+                                    معمقة أو خبرة محددة فيما يتعلق
+                                    بنطاق الاعتماد الذي يتم تقييمه.</p>
+                            </div>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="travel trav Line" id="trav">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">
+                هل أنت مهتم بالمشاركة بخبرتك كمقيّم/خبير في المركز السعودي للاعتماد؟
+            </h4>
+            <p>هناك عدة مجالات يمكنك من خلالها العمل كمقيّم أو خبير متعاون مع المركز السعودي للاعتماد:</p>
+            <div>
+                <img src="images/Line.png" class="img-fluid" style="position: relative;">
+                <a href="#" class="Li">انضم لفرق المقيمين والخبراء</a>
+                <!-- <div class="N_card">
+             
+                <div class="d-flex justify-content-end align-items-center">
+                    <div>
+                        <img src="images/dote.png" class="img-fluid Arow">
+                    </div>
+                   <div class="col-lg-4">
+                    <div class="card">
+                        <label>01</label>
+                        <div class="hed_card">
+                            التقديم
+                        </div>
+                        <div class="card_body">
+                        <p>    يرجى تعبئة طلبك من هنا مع مراعاة استكمال كافة التفاصيل
+                            المطلوبة لإثبات مؤهلاتك وخبراتك والمجالات التي تود التقدم
+                            لها كخبير أو مقيم</p>
+                        </div>
+                    </div>
+                   </div>
+                <div>
+                    <img src="images/arrow.png" class="img-fluid Arow">
+                </div>
+                   <div class="col-lg-4">
+                    <div class="card">
+                        <label>02</label>
+                        <div class="hed_card">
+                            المراجعة
+                        </div>
+                        <div class="card_body">
+                            <h6>بعد استلام طلبك، يمر بمرحلتي تقييم:</h6>
+                            <div class="sm d-flex justify-content-between align-items-center">
+                                <div class="sm_card1">
+                                    <h3>المرحلة الأولى:</h3>
+                                    <p>مراجعة الطلب من قِبل
+                                        إدارة تطوير القدرات الفنية</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="sm_card">
+                                    <h3>المرحلة الثانية:</h3>
+                                    <p>مراجعة الطلب من قِبل
+                                        الإدارة الفنية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="col-lg-2">
+                    <img src="images/ARROW2.png" class="img-fluid Arow2">
+                </div>
+                
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <div class="col-lg-4">
+                     <div class="card">
+                         <label>03</label>
+                         <div class="hed_card">
+                            الموافقة
+                         </div>
+                         <div class="card_body">
+                         <p>بعد اجتيازك للمقابلة ، أصبحت الآن رسميًا مقيّم/خبير متعاون
+                            للمركز السعودي للاعتماد وسيتم إشعارك بالمجالات الفنية التي
+                            ستعمل فيها في المستقبل.
+                            يجب أولًا المشاركة في البرنامج التدريبي التأهيلي والعمل كمتدرب
+                            في مجالك الفني للمشاركة كمقيم / خبير بشكل رسمي .</p>
+                         </div>
+                     </div>
+                    </div>
+                    <div>
+                        <img src="images/arrow.png" class="img-fluid Arow">
+                    </div>
+               
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <label>03</label>
+                            <div class="hed_card">
+                                الموافقة
+                            </div>
+                            <div class="card_body">
+                            <p>في حال اكتمال المتطلبات وتوافق خبرة المُتقدِّم مع تطلعات
+                                واحتياجات المركز , يتم جدولة مقابلة للتعرف عليك بشكل اكبر</p>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="col-lg-2">
+
+                       </div>
+                 </div>
+                 <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-lg-2">
+                        <img src="images/na.png" class="img-fluid Arow">
+                    </div>
+                    <div class="col-lg-4">
+                     <div class="card">
+                         <label>05</label>
+                         <div class="hed_card">
+                            التقييم المستمر
+                         </div>
+                         <div class="card_body">
+                         <p>حفاظاً على جودة الخدمة المقدمة، يتطلب المركز تقديم
+                            معلومات حول كفاءاتك الفنية وخبراتك المكتسبة كل ثلاث
+                            سنوات، كي يتماشى نطاق عملك مع مؤهلاتك وخبراتك.</p>
+                         </div>
+                     </div>
+                    </div>
+                   
+               
+                  
+                   
+                 </div>
+            </div> -->
+            </div>
+    </section>
+    <section class="Form_sc">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">مرحبا عزيزي الزائر</h4>
+            <div class="ui-form-input">
+                <span class="form-input-label">تسجيل مقيّم</span>
+
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*البريد الإلكتروني</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> *تأكيد كلمة المرور </label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*الاسم الأول</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*اسم العائلة</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*العنوان البريدي</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">*رقم الهاتف</label>
+                                    <div class="input-group mb-3 m-input">
+
+                                        <input type="text" class="form-control" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">*عدد سنوات الخبرة</label>
+                                    <div class="input-group mb-3 m-input">
+
+                                        <input type="text" class="form-control" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">*المنصب</label>
+                                    <div class="input-group mb-3 m-input">
+
+                                        <input type="text" class="form-control" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*كلمة المرور</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDataList" class="form-label">البادئة</label>
+                                <input class="form-control  m-inp" list="datalistOptions" id="exampleDataList"
+                                    placeholder="اختر">
+                                <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                </datalist>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*الاسم الثاني</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group MB">
+                                        <label>تاريخ الميلاد*</label>
+
+                                        <input type="text" placeholder="هجري" class="form-control hijri-date-input" />
+
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group MB">
+                                        <label></label>
+                                        <input type="text" placeholder="ميلادي"
+                                            class="form-control hijri-date-input m1" />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*رقم الجوال</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDataList" class="form-label">المؤهل التعليمي *</label>
+                                <input class="form-control  m-inp" list="datalistOptions" id="exampleDataList"
+                                    placeholder="اختر">
+                                <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                </datalist>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*الشركة</label>
+                                <div class="input-group mb-3 m-input">
+
+                                    <input type="text" class="form-control" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDataList" class="form-label">الاختصاص *</label>
+                                <input class="form-control  m-inp" list="datalistOptions" id="exampleDataList"
+                                    placeholder="اختر">
+                                <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                </datalist>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*المجالات</label>
+
+                                <div class="radio_form row">
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio1" name="customRadio"
+                                            class="custom-control-input" checked>
+                                        <label class="custom-control-label" for="customRadio1">القياس والمعايرة</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">نظام إدارة الجودة</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">جهة تفتيش من النوع
+                                            (أ)</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">الميكانيكية
+                                            والمعدنية</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio5" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">الكهربائية
+                                            والإلكترونية</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio6" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio6">الكيميائية
+                                            والبترولية</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio7" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio7">جهة تفتيش من النوع
+                                            (ب)</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio8" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio8">شهادات الحلال</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio9" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio9">التشييد والبناء</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio10" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio10">المواد العامة</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio11" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio11">جهة تفتيش من النوع
+                                            (ج)</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio12" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio12"> الغذائية
+                                            والزراعية</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-3">
+                                        <input type="radio" id="customRadio13" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio13"> النسيج</label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">*هل عملت من قبل في مجال الجودة؟</label>
+
+                                <div class="radio_form row">
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-6">
+                                        <input type="radio" id="customRadio20" name="customRadio"
+                                            class="custom-control-input" checked>
+                                        <label class="custom-control-label" for="customRadio20">نعم</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-6">
+                                        <input type="radio" id="customRadio22" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio22">لا</label>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">أوافق علي شروط الاستخدام</label>
+
+                                <div class="radio_form row">
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-6">
+                                        <input type="radio" id="customRadio24" name="customRadio"
+                                            class="custom-control-input" checked>
+                                        <label class="custom-control-label" for="customRadio24">نعم</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline col-lg-6">
+                                        <input type="radio" id="customRadio26" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio26">لا</label>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="submit" class="btn btn-primary btn-sub sub">تسجيل جديد</button>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="copyright-footer section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="links">
+                            <li>
+                                <ul class="LINK">
+                                    <li> <a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li> <a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li> <a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li> <a href=""> <i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">www.saac.gov.sa</a></li>
+                            <li><a href="#">الاشتراك في لنشرة البريدية</a></li>
+                            <li><a href="#">التوظيف</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>جميع الحقوق محفوظة للمركز السعودي للاعتماد 2021<span>©</span></p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/store.min.js"></script>
+    <script src="js/rv-fontsize.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/momentjs.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment-hijri.js"></script>
+    <script src="js/bootstrap-hijri-datetimepicker.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/main.js"></script>
+
+   
+
+
+
+</body>
+
+</html>

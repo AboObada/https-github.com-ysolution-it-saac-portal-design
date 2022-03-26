@@ -1,0 +1,22 @@
+@media (max-width:1024px) {
+.BC {
+    padding-left: 0rem;
+}
+.BC .about-content{
+    width:100%
+}
+.icon-settings img{
+    position: absolute;
+}
+
+
+.setting {
+    top: 63% !important;
+}
+.setting {
+    left: 4px;
+}
+.Bar .nav-inline .dropdown-menu .dropdown-item{
+    text-align: left;
+}
+}

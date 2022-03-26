@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> الاعتماد السعودي</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/rvfs.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main-rtl.css" rel="stylesheet">
+    <link href="css/media-rtl.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+
+</head>
+
+
+<body id="style-1" class="welcome">
+    <a class='menuToggle no-printme' href='#/'><i class="fas fa-chevron-left"></i></a>
+    <div class="menu no-printme">
+
+        <ul>
+
+            <li class=""><a href="#" class="icon-btn twitter-icon"><i class="fab fa-twitter"></i></a></li>
+            <li class=""><a href="#" class="icon-btn face-book-icon"><i class="fab fa-facebook-f"></i></a></li>
+
+            <li class=""><a href="#" class="icon-btn linkedin-icon"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class=""><a href="#" class="insta-icon"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+
+    </div>
+    <a id="toggle" class="icon-settings no-printme"><img src="images/like.png" class="img-fluid"></a>
+    <div id="contact" class="setting no-printme">
+
+        <!-- start-font-setting -->
+        <div class="switcher">
+            <div id="click-to-show" class="toggle color-toggle"><a class="nav-toggle link1"
+                    href="javascript:void(0)"><img src="images/text.png"></a></div>
+            <span class="switcher-icons btn-group link1Div ToggleFlyout">
+                <a class="zoom-out btn rvfs-reset"><img src="images/zoom-in.png" class="img-fluid" width="18px"></a>
+                <a class="zoom btn rvfs-increase"><img src="images/zoom-out.png" class="img-fluid" width="18px"> </a>
+            </span>
+        </div>
+        <!-- end-font-setting -->
+        <!-- start-color-setting -->
+        <div class="switcher">
+            <div id="click-to-showw" class="zoom-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link2"><img src="images/light.png"></a></div>
+            <span class="switcher-icons color-switcher btn-group link2Div ToggleFlyout">
+                <li data-color="dark" type="button" class="btn color">
+                    <span></span>
+                </li>
+                <li data-color="other" type="button" class="btn color1">
+                    <span></span>
+                </li>
+                <li data-color="root" type="button" class="btn color2">
+                    <span></span>
+                </li>
+            </span>
+        </div>
+        <!-- end-color-setting -->
+        <!-- start-like-setting -->
+        <div class="switcher">
+            <div id="click-to-shows" class="img-toggle toggle"><a href="javascript:void(0)"
+                    class="nav-toggle link3"><img src="images/like.png"></a></div>
+            <span class="switcher-icons btn-group link3Div ToggleFlyout">
+
+                <span class="ag-inst_link" target="_blank">1</span>
+                <a (click)="vote('Excellent')" class="btn"><img src="images/smile-2.png" class="img-fluid"
+                        width="18px"></a>
+                <span class="ag-inst_link" target="_blank">7</span>
+                <a (click)="vote('Good')" class="btn"><img src="images/smile.png" class="img-fluid" width="18px"></a>
+                <span class="ag-inst_link" target="_blank">5</span>
+                <a (click)="vote('Bad')" class="btn"><img src="images/sad.png" class="img-fluid" width="18px"></a>
+            </span>
+        </div>
+        <!-- end-like-setting -->
+        <!-- start-print-setting -->
+        <div onclick={window.print()} class="toggle"><a href="javascript:void(0)"><img src="images/print.png"></a></div>
+        <!-- end-print-setting -->
+        <!-- start-share icons-setting -->
+
+    </div>
+
+
+    <div id="intro" class="Bar">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light  ftco_navbar  ftco-navbar-light nav-inline"
+            id="ftco-navbar">
+            <a class="navbar-brand dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/logo.png" class="img-fluid logo1">
+            </a>
+
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item js-scroll" data-value="wrapper-s" href="index.html?sec=wrapper-s"><img
+                        src="images/about1.PNG" width="30">
+                    عن المركز</a>
+                <a class="dropdown-item js-scroll" data-value="Fileds" href="index.html?sec=Fileds"><img
+                        src="images/about2.PNG" width="27">
+                    خدمات
+                    الاعتماد</a>
+                <a class="dropdown-item js-scroll" data-value="bb" href="index.html?sec=bb"><img
+                        src="images/pepole.png" width="30"> تسجيل
+                    المقيمين والخبراء</a>
+
+                <a class="dropdown-item js-scroll" data-value="trip" href="index.html?sec=trip"><img
+                        src="images/travel.png" width="30"> رحلة
+                    العميل</a>
+                <!-- <a class="dropdown-item js-scroll" data-value="jum" href="about.html"><img src="images/about6.PNG"width="30"> شركاؤنا</a> -->
+                <a class="dropdown-item js-scroll" data-value="gi" href="index.html?sec=gi"><img
+                        src="images/depend.png" width="30"> الجهات
+                    المعتمدة حديثا</a>
+                <a class="dropdown-item js-scroll" data-value="jump" href="index.html?sec=jump"><img
+                        src="images/partner.png" width="30">
+                    شركاؤنا</a>
+                <a class="dropdown-item js-scroll" data-value="newss" href="index.html?sec=newss"><img
+                        src="images/news.png" width="30">
+                    الأخبار</a>
+                <a class="dropdown-item js-scroll" data-value="no" href="index.html?sec=no"><img
+                        src="images/number.png" width="30"> المركز في أرقام</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- end-center class-navbar-nav -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 Navs">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">عن
+                            المركز</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item js-scroll" data-value="a" href="about.html?sec=a"><img
+                                    src="images/about1.PNG" width="30"> عن
+                                المركز</a>
+                            <a class="dropdown-item" href="about.html?sec=c"><img src="images/member.png"
+                                    width="27"> مجلس
+                                الإدارة</a>
+                            <a class="dropdown-item js-scroll" href="about.html?sec=d" data-value="TimeLine"><img
+                                    src="images/about2.PNG" width="30"> الهيكل التنظيمي</a>
+                            <a class="dropdown-item js-scroll" data-value="" href="about.html?sec=E"><img
+                                    src="images/about3.PNG" width="30"> كلمة المدير التنفيذي</a>
+
+
+                            <a class="dropdown-item js-scroll" href="about.html?sec=f"><img src="images/notee.png"
+                                    width="30"> الاعتراف
+                                الدولي</a>
+                            <!-- <a class="dropdown-item js-scroll" data-value="jum" href="about.html"><img src="images/about6.PNG"width="30"> شركاؤنا</a> -->
+                            <a class="dropdown-item js-scroll" data-value="b-ca" href="about.html?sec=g"><img
+                                    src="images/about5.PNG" width="30"> التقارير السنوية</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+    
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            عن الاعتماد</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item js-scroll" data-value="gg" href="fields.html?sec=gg">
+                            <img src="images/عن_الاعتماد-01-removebg-preview.png" width="30">البنية التحتية
+                            للجودة</a>
+                            <a class="dropdown-item js-scroll" data-value="H" href="fields.html?sec=H">
+                                <img src="images/عن_الاعتماد-01h-removebg-preview.png" width="40">تعريف الاعتماد</a>
+
+                            <a class="dropdown-item depnd js-scroll" data-value="I" href="fields.html?sec=I"> <img
+                                    src="images/_Group_.png" width="25">أهمية الاعتماد</a>
+
+                            <a class="dropdown-item js-scroll" data-value="J" href="fields.html?sec=J"> <img
+                                    src="images/u-removebg-preview.png" width="40">فوائد الاعتماد</a>
+                            <a class="dropdown-item js-scroll" data-value="kf" href="fields.html?=sec=kf"> <img
+                                    src="images/u-removebg-preview.png" width="40">المنظمات والهيئات الدولية</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">خدمات الاعتماد</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item js-scroll" data-value="trav" href="index.html#trav"> <img
+                                    src="images/serv1.PNG" width="40"> رحلة الاعتماد</a>
+                            <a class="dropdown-item js-scroll" data-value="fields" href="fields.html#fields"> <img
+                                    src="images/img.png" width="40"> المختبرات</a>
+                            <a class="dropdown-item js-scroll" data-value="Travel" href="fields.html#Travel"> <img
+                                    src="images/img2.png" width="45"> جهات
+                                التفتيش</a>
+                            <a class="dropdown-item js-scroll" data-value="file-fields"
+                                href="fields.html#file-fields"> <img src="images/img3.png" width="45">جهات منح
+                                الشهادات</a>
+                            <a class="dropdown-item js-scroll" data-value="documents" href="fields.html#documents">
+                                <img src="images/img4.png" width="50"> جهات منح
+                                شهادات الحلال</a>
+                            <a class="dropdown-item js-scroll" data-value="documents" href="fields.html"> <img
+                                    src="images/user.png" width="40"> المقيمون والخبراء</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href=""> التــدريب</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" data-value="news" href="observer_participants.html">الجهات
+                            المعتمدة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المركز المعرفي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المركز الإعلامي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mn" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+                <!-- end-right class-navbar-nav -->
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 setting-menu">
+                    <li class="nav-item Link">
+                        <a class="nav-link" href="#"> تسجيل الدخول</a>
+                    </li>
+                    <li class="dropdown Search_icon">
+                        <a href="#" class="dropdown-toggle gg" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">
+                            بحـث
+                            <span class="fa fa-search fa-fw"></span>
+
+                        </a>
+                        <ul class=" dropdown-menu" style="margin-left: 0%;">
+                            <form action="#" method="get" class="navbar-form" style="padding: 10px;">
+                                <fieldset class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" name="term" class="form-control"
+                                            placeholder="Search for...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">
+
+                                                <span class="fa fa-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mn" href="#"> EN</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </div>
+
+
+
+    <!-- first section -->
+    <section class="top-background" id="a">
+        <div class="wrapper-s" style="background-image: url(images/عن-المركز.png);">
+            <div class="container">
+                <div class="center-block">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;"> عن
+                                المركــز
+                            </h4>
+                            <p>أنشئ المركز بموجب قرار مجلس الوزراء الموقر رقم ( 600 ) وتاريخ 22
+                                اللجنة الوطنية للاعتماد ( 2004 م) إلى مركز مستقل باسم "المركز السعودي لاعتماد" ليتمتع
+                                بالشخصية الاعتبارية، والاستقلال
+                                المالي والإداري، ويرتبط تنظيميا بمعالي وزير التجارة. حيث يعد المركز الجهة الوطنية
+                                المخولة بشكل رسمي لتقديم خدمات
+                                اعتماد جهات تقويم المطابقة في المملكة والارتقاء بكفاءتها، ليسهم في تعزيز البنية التحتية
+                                للجودة وداعما لاقتصاد المملكة
+                                وازدهارها.</p>
+
+
+                            <p>ويقوم المركز بمجموعة من المهام والتي نص عليها تنظيمه مثل اعتماد جهات تقويم
+                                المطابقة، وتقديم خدمات التدريب وتأهيل المقيمين في مجال تقويم المطابقة،
+                                والاشتراك في المنظمات والهيئات الدولية والإقليمية، والاعتراف المتبادل بشهادات
+                                اعتماد جهات تقويم المطابقة، وتمثيل المملكة في المنظمات الدولية والإقليمية،
+                                إضافة إلى التنسيق مع الأجهزة الحكومية لتوفير البيانات ذات العلاقة يمجال تقويم
+                                المطابقة، واقتراح الأنظمة ذات الصلة، وإعداد الدراسات والبحوث، وتنظيم الندوات
+                                والمؤتمرات وإعداد قاعدة بيانات خاصة بنشاط المركز.</p>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="history-tl-container">
+                                <ul class="tl">
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#a" class="scrollTo" data-value="a">
+                                            <div class="item-detail">عن المركز</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#b" class="scrollTo" data-value="b">
+                                            <div class="item-detail">الركائز والأهداف الاستراتيجية</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="#c" class="scrollTo" data-value="c">
+
+                                            <div class="item-detail">مجلس الإدارة</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+                                        <a href="d" class="scrollTo" data-value="d">
+
+                                            <div class="item-detail">الهيكل التنظيمي</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                                        <a href="#E" class="scrollTo" data-value="E">
+                                            <div class="item-detail">كلمة المدير التنفيذي</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                                        <a href="#f" class="scrollTo" data-value="f">
+                                            <div class="item-detail">الاعتراف الدولي</div>
+                                        </a>
+                                    </li>
+                                    <li class="tl-item" ng-repeat="item in retailer_history">
+
+                                        <a href="#g" class="scrollTo" data-value="g">
+                                            <div class="item-detail">التقارير السنوية</div>
+                                        </a>
+                                    </li>
+                                
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="card card_top">
+        <img src="images/2.png" class="img-fluid img-top">
+        <div class="container">
+            <div class="Items">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="top-image1">
+                            <h4 class="counter">رؤيتنا</h4>
+                        </div>
+                        <p>المساهمة في الوصول بمنظومة
+                            الجودة في المملكة العربية
+                            السعودية إلى أفضل عشر دول
+                            . عالميًا في 2030</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="top-image1">
+                            <h4 class="counter">رسالتنا</h4>
+                        </div>
+                        <p>
+                            تقديم خدمات اعتماد مبتكرة
+                            وموثوقة بالشراكة مع الجهات في
+                            منظومة الجودة محليًا ودوليًا
+                            للارتقاء بتنافسية الاقتصاد الوطني
+                            وتعزيز التجارة الخارجية.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="top-image1">
+                            <h4 class="counter">قيمنا</h4>
+                        </div>
+                        <ul>
+                            <li>التميز</li>
+                            <li>الشراكة</li>
+                            <li>الابتكار</li>
+                            <li>المصداقية</li>
+                            <li>التركيز على الموظفين والعملاء</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="goals" id="b">
+        <div class="goals-card">
+            <div class="container">
+                <div class="Top_img">
+                    <h4 class="wow fadeInDown" data-wow-duration="2s"
+                        style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">الركائز
+                        والأهداف الاستراتيجية
+                    </h4>
+                </div>
+                <div class="swiper-container swap" style="direction: ltr;">
+                    <ul class="swiper-wrapper SWiper">
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>تعزيز البنية
+                                    التحتية للجودة
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i> تعزيز الوعي بأهمية الاعتماد والجودة
+                                        في جميع القطاعات.</li>
+                                    <li><i class="fas fa-circle"></i>الارتقاء بترتيب المملكة في المؤشر
+                                        العالمي للجودة بما يخص محور الاعتماد</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>ريادة الاعتماد
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i>زيادة القدرة التنافسية للمركز في
+                                        المملكة العربية السعودية وعلى
+                                        مستوى العالم.</li>
+                                    <li><i class="fas fa-circle"></i>زيادة عدد جهات تقويم
+                                        المطابقة المعتمدة.</li>
+                                        <li><i class="fas fa-circle"></i>تحسين رضا العملاء حيال خدمات
+                                            المركز السعودي للاعتماد.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>الاعتراف
+                                    الإقليمي والدولي
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i> تحقيق الاعتراف الدولي للمركز،
+                                        وتعزيز المكانة الدولية للمركز من
+                                        خلال المشاركة في أنشطة
+                                        الاعتماد الإقليمية والدولية.</li>
+                                  
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>
+                                    تطوير القدرات
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i> تطوير القدرات المتخصصة
+                                        في مجال الاعتماد والجودة</li>
+                                    <li><i class="fas fa-circle"></i> استقطاب المقيّمين والخبراء
+                                        الفنيين (المتعاونين)، وتدريبهم
+                                        والاحتفاظ بهم لدعم أعمال المركز.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>تعزيز البنية
+                                    التحتية للجودة
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i> تعزيز الوعي بأهمية الاعتماد والجودة
+                                        في جميع القطاعات.</li>
+                                    <li><i class="fas fa-circle"></i> الارتقاء بترتيب المملكة في المؤشر
+                                        العالمي للجودة بما يخص محور الاعتماد</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="Top_img2">
+                                <h4>
+                                    التميز التشغيلي
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-circle"></i> توجيه المركز السعودي للاعتماد نحو
+                                        الاستدامة الذاتية المالية.</li>
+                                    <li><i class="fas fa-circle"></i> تحسين إجراءات وعمليات
+                                        خدمات المركز</li>
+                                        <li><i class="fas fa-circle"></i> تأسيس بنية رقمية لتلبية الاحتياجات
+                                            الداخلية واحتياجات العملاء</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev "></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+              
+
+            </div>
+        </div>
+    </section>
+
+    <section  class="service servv manager"  id="c">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">مجلس الإدارة
+            </h4>
+          
+            <div class="swiper-container swap" style="direction: ltr;">
+                <ul class="swiper-wrapper SWiper">
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m1.png);">
+
+                            <img src="images/Untitled-1.png">
+                            </div>
+                          
+                            <div class="thim-course-content">
+                           
+                                <h2 class="course-title">
+                                    د. ماجد بن عبدالله القصبي
+                                </h2>
+                                <p>وزير التجارة – رئيس مجلس الإدارة
+                                    وزارة التجارة</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m2.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                                
+                                <h2 class="course-title">
+                                    د.سعد بن عثمان القصبي
+                                </h2>
+                                <p>رئيس اللجنة الوطنية لكود البناء السعودي
+                                    اللجنة الوطنية لكود البناء السعودي</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m3.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                            
+                                <h2 class="course-title">
+                                    أ.عبدالله عبدالعزيز العودة
+                                </h2>
+                                <p>مدير الإدارة العامة للموارد البشرية
+                                    وزارة التجارة</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper" >
+                            <div class="course-thumbnail" style="background-image: url(images/m1.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                              
+                                <h2 class="course-title">
+                                    أ.عبدالله عبدالعزيز العودة
+                                </h2>
+                                <p>مدير الإدارة العامة للموارد البشرية
+                                    وزارة التجارة</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper" >
+                            <div class="course-thumbnail" style="background-image: url(images/m4.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                              
+                                <h2 class="course-title">
+                                    م. سعود بن راشد العسكر
+                                </h2>
+                                <p>نائب المحافظ للمطابقة والجودة
+                                    الهيئة السعودية للمواصفات والمقاييس والجودة</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper" >
+                            <div class="course-thumbnail" style="background-image: url(images/m5.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                              
+                                <h2 class="course-title">
+                                    د. إبراهيم بن عبدالرحمن الحيد
+                                </h2>
+                                <p>نائب الرئيس التنفيذي لقطاع العمليات
+                                    الهيئة العامة للغذاء والدواء</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper" >
+                            <div class="course-thumbnail" style="background-image: url(images/m6.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                              
+                                <h2 class="course-title">
+                                    م. عبدالله بن علي النعيم
+                                </h2>
+                                <p>رئيس المجلس التنفيذي لجمعية حماية
+                                    المستهلك</p>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m7.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                             
+                                <h2 class="course-title">
+                                    أ. أحمد بن براك الدخيل
+                                </h2>
+                                <P>رئيس اللجنة الوطنية للمختبرات</P>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m8.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                             
+                                <h2 class="course-title">
+                                    سعود بن محمد الغرابي
+                                </h2>
+                                <P>مدير مكتب الغرابي للدراسات الصناعية
+                                    ممثل القطاع الخاص</P>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="course-item-wrapper">
+                            <div class="course-thumbnail" style="background-image: url(images/m9.png);">
+                                <img src="images/Untitled-1.png">
+
+                            </div>
+                            <div class="thim-course-content">
+                             
+                                <h2 class="course-title">
+                                    أ. كمال عبدالحميد الجهني
+                                </h2>
+                                <P>العضو المنتدب التنفيذي لشركة
+                                    المعامل الوطنية</P>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-button-prev "></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="Timeline"  id="d">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">الهيكل التنظيمي
+            </h4>
+            <img src="images/Organziation-Chart.png" class="img-fluid timeline">
+
+            <!-- <div class="each">
+                <a href="#" class="btn"><span>المقيمون المتعاونين والخبراء المختصين</span></a>
+              </div>
+              <img src="images/and.png" class="img-fluid and-img" width="250"> -->
+        </div>
+    </section>
+    <section class="about_words"  id="E">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s"
+            style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">كلمة المدير التنفيذي
+        </h4> 
+        <p>
+            تحظى البنية التحتية للجودة في المملكة العربية السعودية بدعم واهتمام القيادة الرشيدة بقيادة مولاي خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز،
+وإشراف سمو سيدي ولي العهد صاحب السمو الملكي الأمير محمد بن سلمان بن عبدالعزيز -حفظهم الله-، وتعد مرتكزا مهما لتحقيق أهداف رؤية المملكة 2030
+وتعزيز الريادة الاقتصادية للمملكة إقليمياً ودولياً. وتماشياً مع المسيرة التنموية الشاملة في وطننا الغالي، جاء تأسيس المركز السعودي للاعتماد ليكون ركيزة
+أساسية ودعامة مهمة لمنظومة البنية التحتية للجودة في المملكة، ليساهم في الارتقاء بخدمات جهات تقويم المطابقة، ويرفع مستوى جودة الخدمات
+والمنتجات وكفايتها، حفاظاً على صحة المستهلك وسلامة البيئة ودعماً للاقتصاد الوطني وازدهاره، حيث صدر قرار مجلس الوزراء الموقر رقم ( 600 ) وتاريخ
+1440/10/22 ه بتأسيس المركز وتحديد مهامهه واختصاصاته. وشهد عام 2021 م تدشين المركز لإستراتيجيته الخمسيّة، والتي تعد خارطة الطريق للتوجهات
+المستقبلية للمركز والتي يسعى من خلالها إلى التوسع في خدمات الاعتماد وفق أولويات القطاعات التنموية والاقتصادية الوطنية.
+        </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>حيث شملت الاستراتيجية خمس مرتكزات رئيسة تمثلت في تعزيز البنية
+                    التحتية للجودة في المملكة، وريادة الاعتماد، والاعتراف الإقليمي والدولي،
+                    وتطوير القدرات، والتميز التشغيلي.
+                    وتعزيزاً للحضور العالمي للمملكة في منظومة البنية التحتية للجودة شهد
+                    عام 2021 م حصول المركز على الاعتراف الدولي من المنظمة الدولية
+                    ويدعم هذا الاعتراف توقيع المملكة على .(ILAC) لاعتماد المختبرات
+                    الاتفاقيات التجارية الثنائية والمتعددة الأطراف التي تستوجب الاعتراف
+                    الدولي بخدمات البنية التحتية الوطنية للجودة. وبذلك أصبحت شهادات
+                    المطابقة الصادرة من جهات تقويم المطابقة المعتمدة من المركز معترفٌ
+                    بها دولياً، مما سيكون له أثر كبير على المستوى الاقتصادي من خلال رفع
+                    مستوى التبادل التجاري، وانسيابية السلع والمنتجات من الأسواق العالمية
+                    وإليها ونتطلع بإذن الله إلى الإسهام في الوصول بمنظومة البنية التحتية
+                    للجودة في المملكة العربية السعودية إلى أفضل عشر دول عالميًا في
+                    2030 من خلال تقديم خدمات اعتماد مبتكرة وموثوقة بالشراكة مع
+                    الجهات في منظومة الجودة محليًا ودوليًا للارتقاء بتنافسية
+                    الاقتصاد الوطني وتعزيز التجارة الخارجية. ونرحب دائمًا في المركز السعودي
+                    للاعتماد بكافة الآراء والمقترحات، التي من شأنها المساعدة في تطوير
+                    خدمات وأعمال المركز.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/md.png" class="img-fluid md">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="newss" class="service servv say"  id="f">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">الاعتراف الدولي
+            </h4>
+            <p>حصل المركز السعودي للاعتماد في محرم 1443 ه (أغسطس 2021 م) على إنجاز وطني بتوقيعه على اتفاقية الاعتراف متعدد الأطراف من
+                في كل من المجالات التالية: ،(ILAC) المنظمة الدولية لاعتماد المختبرات</p>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card left-card">
+                            <div class="row">
+                                <div class="col-lg-8" style="border-left: 2px solid #d39e00;">
+                                    <ul>
+                                        <li>اعتماد مختبرات الفحص طبقا للمواصفة القياسية
+                                            .ISO/IEC الدولية 1702</li>
+                                        <li>اعتماد مختبرات القياس والمعايرة طبقا للمواصفة
+                                            .ISO/IEC القياسية الدولية 1702</li>
+                                        <li>اعتماد جهات التفتيش طبقا للمواصفة القياسية
+                                            .ISO/IEC الدولية 17020</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="images/logosm.png" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-right">
+                            ويعني هذا الاعتراف الدولي أن شهادات المطابقة الصادرة عن جهات تقويم
+المطابقة المعتمدة من المركز السعودي للاعتماد أصبحت معترف بها دوليًا،
+مما يعكس التأثير الايجابي على المستوى الاقتصادي من خلال رفع مستوى
+التبادل التجاري وتدفق السلع والمنتجات من وإلى المملكة.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="jumbtron reports" id="g">
+        <div class="container">
+            <h4 class="wow fadeInDown" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">التقارير السنوية
+            </h4>
+            <!-- <div  class="owl-carousel owl-theme caroll" style="direction: ltr;"> -->
+                <div class="row">
+                <div class="col-lg-6">
+                    <div class="">
+                        <div class="report">
+                            <img src="images/report.png" class="img-fluid">
+                        </div>
+                        <div class="time">
+                            <h5>التقرير السنوي للعام</h5>
+                            <span> هـ 1442-1441  (2020 ) </span>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="">
+                      
+                        <div class="report">
+                            <img src="images/report.png" class="img-fluid">
+                        </div>
+                        <div class="time">
+                            <h5>التقرير السنوي للعام</h5>
+                            <span> هـ 1442-1441  (2020 ) </span>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+
+            </div>
+        
+        <!-- </div> -->
+    </section>
+    <footer>
+        <div class="copyright-footer section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="links">
+                            <li>
+                                <ul class="LINK">
+                                    <li> <a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li> <a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li> <a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li> <a href=""> <i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">www.saac.gov.sa</a></li>
+                            <li><a href="#">الاشتراك في لنشرة البريدية</a></li>
+                            <li><a href="#">التوظيف</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>جميع الحقوق محفوظة للمركز السعودي للاعتماد 2021<span>©</span></p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/store.min.js"></script>
+    <script src="js/rv-fontsize.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
