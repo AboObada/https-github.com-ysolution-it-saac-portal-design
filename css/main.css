@@ -3948,12 +3948,27 @@ footer .links li a {
   
 }
 .about-partener {
-  margin-top: 10px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.about-partener .blow-line{
+  position: relative;
+}
+.about-partener .blow-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 2px;
+  background-color: #384527;
 }
 .parteners .logo {
   color: #fff;
   margin-top: 15px;
-  position: relative;
+  /* position: relative; */
   /* border-bottom: 3px solid #384527;
   border-width: 30%;
   padding-bottom: 30px; */
@@ -3966,18 +3981,19 @@ footer .links li a {
   left: 170px;
   top: 100px;
 } */
- .parteners .logo::after {
+ /* .parteners .logo::before {
   content: '';
+  position: absolute;
   width: 100px;
   height: 2px;
-  border-bottom: 2px solid #384527;
+  display: block;
+  background:  #384527;
   text-align: inherit;
-  position: absolute;
-  right: 235px;
+  right: 235px; */
   /* border-bottom-color:#384527; */
   /* margin-top: 2rem; */
-   top: 120px; 
- } 
+   /* top: 120px; 
+ }  */
 .parteners .logo p {
   font-size: 14px;
   font-weight: normal;
