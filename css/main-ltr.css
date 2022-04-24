@@ -17,9 +17,125 @@
   padding-left: 20px;
 }
 
+.wrapper-s p {
+  font-size: 15px !important;
+}
+
+.wrapper-s2 p {
+  font-size: 15px !important;
+}
+
+.Block p {
+  font-size: 15px !important;
+}
+
+.Block .card_block p {
+  font-weight: lighter;
+  font-size: 12px !important;
+  text-align: left;
+}
+
+.wrapper-s2 h4, .wrapper-s h4, .bcc h4 {
+  color: #d39e00;
+  font-size: 22px !important;
+}
+
+.bcc {
+  background-size: auto 250px;
+}
+
 .block_tab .nav-tabs .nav-link {
   margin-left: 0px;
   margin-right: 6px;
+}
+
+.t_item .img {
+  position: absolute;
+  right: 10px;
+}
+
+.Book_img {
+  left: auto;
+  right: -1%;
+}
+
+.card-travel .list-items li {
+  font-size: 15px !important;
+}
+
+.bcc p {
+  text-align: justify !important;
+  font-size: 15px;
+}
+
+#I p {
+  text-align: left;
+  font-size: 15px;
+}
+
+.service .course-title {
+  text-align: left;
+}
+
+.wrapper_traning .center-block h4 {
+  margin: 10px 0px;
+  font-size: 22px !important;
+}
+
+.card-travel h4, .trav h4 {
+  font-size: 22px !important;
+}
+
+.Block .card_block h5 {
+  position: relative;
+}
+
+.Top_img2 ul li i, .Top_img2 ul li span {
+  color: #bf850a;
+  font-size: 11px;
+  float: left;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 2;
+  margin-right: 15px;
+}
+
+.wrapper_traning .center-block h4 {
+  margin: 10px 0px;
+}
+
+.b-cards .card .card-body p {
+  font-size: 13px;
+  text-align: left;
+}
+
+#I p {
+  text-align: left;
+}
+
+.bvr .owl-nav .owl-prev {
+  right: -44px !important;
+  direction: ltr;
+  left: auto !important;
+}
+
+.nav-tabs .nav-link {
+  padding: .5rem !important;
+}
+
+.tablist .nav-link {
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: var(--ttext);
+  font-weight: bold;
+  font-size: 13px;
+  padding: .3rem;
+  background: #f7efdd;
+  margin-left: 0px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #ecd093;
+  border-bottom: 0px;
+  height: 100%;
 }
 
 .bcc {
@@ -28,6 +144,11 @@
 
 footer .copyright-footer p {
   float: right;
+}
+
+.Top_img2 ul li i {
+  float: left;
+  margin-right: 5px;
 }
 
 footer .links li {
@@ -41,10 +162,12 @@ footer .links li {
 
 .icon-settings {
   left: .5%;
+  right: auto !important;
 }
 
 .setting {
   left: 15px;
+  right: auto !important;
 }
 
 .icon-settings img, .setting .toggle a img {
@@ -172,10 +295,6 @@ footer .links li {
   border-right: 0px;
 }
 
-.BC {
-  padding-left: 14rem;
-}
-
 .contact .EM {
   border-left: 1px solid var(--Ti3);
   border-right: 0px;
@@ -207,4 +326,52 @@ footer .links li {
   right: 0;
   left: 10px;
 }
-/*# sourceMappingURL=main-rtl.css.map */
+
+.jumpbron .input-group {
+  text-align: left !important;
+}
+
+.New_box .card .Logo {
+  border-left: 2px solid var(--Ti);
+  border-right: 0px;
+}
+
+.card11 p {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.Top_img2 ul li {
+  line-height: 1.8;
+  font-size: 13px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: var(--nav-list);
+  text-align: left;
+}
+
+.wrapper-s p {
+  text-align: justify;
+}
+
+.Top_img2 {
+  background-position: left !important;
+}
+
+.Top_img2 h4 {
+  text-align: left;
+}
+
+.upper-menu-element p {
+  color: #fff;
+  text-align: left;
+  line-height: 1.8;
+  margin-top: 10px;
+  padding: 92px;
+  margin-bottom: 59px;
+}
+
+.upper-menu-element p {
+  font-size: 14px;
+}
+/*# sourceMappingURL=main-ltr.css.map */

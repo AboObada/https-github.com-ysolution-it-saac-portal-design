@@ -23,7 +23,8 @@
     padding:20px;
     border-radius:8px;
     margin-top:10px;
-    height:90px;
+    min-height:90px;
+    position: relative;
     cursor: pointer;
     img{
         width:60px;
@@ -80,7 +81,7 @@ font-size:13px;
         color: #fff;
         display: block;
         background: #063c2a;
-        width: 108px;
+        width: 260px;
         padding: 7px;
         border-radius: 5px;
         margin-top: 6px;
@@ -665,7 +666,7 @@ font-size:13px;
     font-weight: 900;
     line-height: 1.8;
     margin: 2rem 0rem;
-    font-size: 23px;
+    font-size: 20px;
   }
   img{
  
@@ -885,7 +886,7 @@ background-color: var(--color) !important;
   transition: 1s;
   margin: auto;
   display: table;
-  margin-top:33px;
+  margin-top:30px;
   &:hover{
     color:#fff
   }
@@ -931,3 +932,72 @@ background-color: var(--color) !important;
   padding: 2rem 0rem;
 }
 
+/*# sourceMappingURL=main.css.map */
+.participants {
+  background-image: url(../images/ClipGroup.jpg.png);
+}
+.parteners {
+  background-color: var(--parteners);
+  padding: 2rem;
+  text-align: center;
+  min-height:100vh;
+}
+.parteners .title {
+  color: #fff;
+  font-weight: bold;
+  
+}
+.about-partener {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.about-partener .blow-line{
+  position: relative;
+}
+.about-partener .blow-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 2px;
+  background-color: #384527;
+}
+.parteners .logo {
+  color: #fff;
+  margin-top: 15px;
+  /* position: relative; */
+  /* border-bottom: 3px solid #384527;
+  border-width: 30%;
+  padding-bottom: 30px; */
+}
+/* .parteners .logo .blow-row {
+  width: 100px;
+  height: 3px;
+  border-bottom: 3px solid #384527;
+  position: absolute;
+  left: 170px;
+  top: 100px;
+} */
+ /* .parteners .logo::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  display: block;
+  background:  #384527;
+  text-align: inherit;
+  right: 235px; */
+  /* border-bottom-color:#384527; */
+  /* margin-top: 2rem; */
+   /* top: 120px; 
+ }  */
+.parteners .logo p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.parteners .logo .img-box {
+  margin-top: -20px;
+}

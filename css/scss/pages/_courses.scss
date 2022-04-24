@@ -80,6 +80,7 @@
     background-position: right;
     font-weight: bold;
     margin-bottom: 2rem;
+    margin-top:2rem;
 
     h4{
       font-weight: 800;
@@ -153,15 +154,17 @@ color:var(--Ti);
     height:113px !important;
     h2{
       color: #00673e;
-      line-height: 2;
       font-size: 14px !important;
       text-align: center;
       font-weight: bold;
     }
   }
+
+
+  
   p{
     color:#cc9406;
-    font-size:14px;
+    font-size:12px;
     font-weight: 700;
   }
 
@@ -224,12 +227,14 @@ color:var(--Ti);
   h4{
     color:#fff;
     font-weight: 700;
+    font-size:22px;
   }
   p{
     color:#fff;
     text-align: justify;
     line-height:1.8;
     margin-top:10px;
+    font-size: 16px;
   }
   .left-card{
     background: #00673e;

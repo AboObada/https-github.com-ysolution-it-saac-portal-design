@@ -2,6 +2,9 @@
   .top-background {
     margin-top: 80px;
 }
+body{
+  overflow-x: hidden;
+}
   .wrapper-s{
     background: url(../images/Layer2.png) no-repeat;
     -webkit-background-size: cover;
@@ -105,11 +108,12 @@
     h4{
       color:#fff;
       font-size:27px !important;
+      font-size:22px;
     }
     p{
       text-align: justify;
       color:#fff;
-      font-size:14px;
+      font-size:14px !important;
       line-height:1.8;
 
     }
@@ -201,8 +205,8 @@
     background-color: var(--nav-bgg);
   padding:2rem;
     h4{
-      color:var(--owl);
-      font-size: 16px;
+      color:var(--owl) !important;
+      font-size: 16px !important;
       font-weight: bold;
       margin-bottom: 30px;
     }
@@ -218,7 +222,7 @@
   p {
     color: var(--owl) !important;
     margin:10px;
-    font-size:14px;
+    font-size:14px !important;
 }
 
 }
@@ -299,8 +303,11 @@
     
     h5{
       color:#fff;
+      position: relative;
       font-size:16px;
       &::before{
+        content: '';
+        content: '';
         content: '';
         content: '';
         position: absolute;
@@ -308,7 +315,8 @@
         width: 50px;
         height: 3px;
         background: #d39e00;
-        margin-top: 1.6rem;
+     
+        top: 110%;
       }
     }
     p{
@@ -320,9 +328,9 @@
 
 
 .jumpbron {
-  padding: 2rem;
+  padding: 1rem;
   background: var(--nav-bgg);
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   overflow-x: hidden;
   h5{
     color:var(--owl);
@@ -334,6 +342,7 @@
 }
 .jumb2{
   background-color:var(--body-bg);
+  padding-top:0rem;
   h5{
     color:var(--tte);
   }
@@ -377,7 +386,7 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-radius: 15px;
-  height: 75px;
+  height: 83px;
   padding: 10px 15px;
   margin-top: 10px;
 }
@@ -388,7 +397,7 @@
     content: '';
     position: absolute;
     display: block;
-    width: 62px;
+    width: 54px;
     height: 3.5px;
     background: #d39e00;
     margin-top: -10px;
@@ -399,7 +408,7 @@
     content: '';
     position: absolute;
     display: block;
-    width: 62px;
+    width: 54px;
     height: 3.5px;
     background: #d39e00;
     margin-top: -10px;
@@ -415,12 +424,13 @@
     left: 50%;
     transform: translateX(-50%) translateY(0%);
     font-size: 12px;
+    width:150px
   }
 }
 .course-title {
   font-size: 16px;
     color: #d39e00;
-    line-height: 2;
+   
     font-size: 13px;
     text-align: right;
 
